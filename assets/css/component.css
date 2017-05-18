@@ -1,4 +1,50 @@
-html, body { height: 100%; }
+html, body { height: 100%;
+
+
+
+
+
+}
+
+
+.title {
+	font-family: 'Lato';
+	position: absolute;
+	color: white;
+	padding-left: 25%;
+	padding-top: 2.5%;
+	font-size: 1.5em;
+	line-height: 1;
+	font-family: 'Din';
+
+}
+
+.first {
+	font-size: .8em;
+}
+
+.description {
+	position: absolute;
+	padding-top: 70%;
+	width: 100%;
+}
+.first1 {
+	font-size: 2em;
+	font-family: 'Din';
+	text-transform: lowercase;
+	background-color: black;
+	width: 80%;
+	font-weight:100;
+	line-height: 1.5;
+}
+.page {
+
+}
+
+.look {
+
+}
+
 
 .pt-perspective {
 	position: relative;
@@ -48,33 +94,49 @@ html, body { height: 100%; }
 
 
 .pt-page-1 {
-	background: #0ac2d2;
+
 }
 
 .pt-page-2 {
-	background: #7bb7fa;
+
 }
 
 .pt-page-3 {
-	background: #60d7a9;
+
 }
 
 .pt-page-4 {
-	background: #fdc162;
+
 }
 
 .pt-page-5 {
-	background: #fd6a62;
+
 }
 
 .pt-page-6 {
-	background: #f68dbb;
+
 }
 
 /* Triggers (menu and button) */
 
+#panel, #flip {
+    padding: 5px;
+    text-align: left;
+    background: transparent;
+		width: auto;
+}
 
-
+#panel {
+    padding: 50px;
+    display: none;
+		text-align: left;
+		padding-left: 44%;
+		text-decoration: none;
+		height: 100%;
+		width: 100%;
+		font-size: 3em;
+		list-style-type: none;
+}
 
 
 button

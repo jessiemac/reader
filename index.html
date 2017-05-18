@@ -10,13 +10,36 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/animations.css" />
 		<script src="assets/js/modernizr.custom.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+$(document).ready(function(){
+		$("#flip").click(function(){
+				$("#panel").slideToggle("slow");
+		});
+});
+</script>
+
+
 	</head>
 	<body>
 
+<button id="flip">Menu</button>
+<div id="panel">
+<ul>
+	<li>Michel de Certeau</li>
+	<li>Lev Manovich</li>
+	<li>Henri Lefebrve</li>
 
-		<div class="pt-triggers">
-			<button id="iterateEffects" class="pt-touch-button">Menu</button>
+</ul>
+
+
+	</div>
+
+
+		<div class="right">
+			<button id="iterateEffects" class="pt-touch-button">Next</button>
 			<div id="dl-menu" class="dl-menuwrapper">
+
 			</div><!-- /dl-menu-wrapper-->
 			</div><!-- /triggers -->
 
@@ -25,7 +48,24 @@
 
 			<div id="pt-main" class="pt-perspective">
 			<div class="pt-page pt-page-1">
-				<img src="assets/images/test.jpg" width="100%">
+				<div class="title"><h1><span class="first">henri</span><br>
+					Lefebrve</h1>
+					<div class="description">
+					<span class="first1">The Myth of the Everyday</span><br>
+					<span class="page">Page 192</span><br>
+					<span class="look">Scroll down<span>
+				</div>
+				</div>
+				<img class="image1" src="assets/images/Greenweb.jpg" width="100%">
+
+
+
+
+				<div class="blockquote"></div>
+
+				<div class="text"></div>
+
+
 
 			</div>
 
