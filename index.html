@@ -10,7 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/animations.css" />
 		<script src="assets/js/modernizr.custom.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="assets/js/jquery-3.2.0.min.js"></script>
 		<script>
 $(document).ready(function(){
 		$("#flip").click(function(){
@@ -18,7 +18,44 @@ $(document).ready(function(){
 		});
 });
 </script>
+<script>
+$(function() {
+var windw = this;
 
+$.fn.followTo = function ( elem ) {
+    var $this = this,
+        $window = $(windw),
+        $bumper = $(elem),
+        bumperPos = $bumper.offset().top,
+        thisHeight = $this.outerHeight(),
+        setPosition = function(){
+            if ($window.scrollTop() > (bumperPos - thisHeight)) {
+                $this.css({
+                    position: 'fixed',
+                    top: (bumperPos - thisHeight)
+                });
+            } else {
+                $this.css({
+                    position: 'absolute',
+                    top: 0
+                });
+            }
+        };
+    $window.resize(function()
+    {
+        bumperPos = pos.offset().top;
+        thisHeight = $this.outerHeight();
+        setPosition();
+    });
+    $window.scroll(setPosition);
+    setPosition();
+};
+
+$('.image1overlay').followTo('.next');
+
+
+});
+</script>
 
 	</head>
 	<body>
@@ -36,28 +73,24 @@ $(document).ready(function(){
 	</div>
 
 
-		<div class="right">
-			<button id="iterateEffects" class="pt-touch-button">Next</button>
-			<div id="dl-menu" class="dl-menuwrapper">
 
-			</div><!-- /dl-menu-wrapper-->
-			</div><!-- /triggers -->
 
 
 
 
 			<div id="pt-main" class="pt-perspective">
 			<div class="pt-page pt-page-1">
-				<div class="title"><h1><span class="first">henri</span><br>
-					Lefebrve</h1>
-					<div class="description">
-					<span class="first1">The Myth of the Everyday</span><br>
-					<span class="page">Page 192</span><br>
-					<span class="look">Scroll down<span>
-				</div>
-				</div>
-				<img class="image1" src="assets/images/Greenweb.jpg" width="100%">
+<img class="image1overlay" src="assets/images/gold-extracted.png" width="100%">
+<img class="image1" src=assets/images/in-plain-sight-gold-copy-1024x682.jpg width="100%">
 
+<div class="next"></div>
+
+				<div>
+					<button id="iterateEffects" class="pt-touch-button">Next</button>
+					<div id="dl-menu" class="dl-menuwrapper">
+
+					</div><!-- /dl-menu-wrapper-->
+					</div><!-- /triggers -->
 
 
 
@@ -72,7 +105,8 @@ $(document).ready(function(){
 
 
 			<div class="pt-page pt-page-2">
-				<img src="assets/images/in-plain-sight-gold-copy-1024x682.jpg" width="100%">
+				<img class="image1" src="assets/images/Greenweb.jpg" width="100%">
+
 
 
 			</div>
