@@ -4,7 +4,7 @@ html, body { height: 100%;
 
 
 .next {
-	background-color: orange;
+
 	display: block;
 	height: 1300px;
 
@@ -12,6 +12,7 @@ html, body { height: 100%;
 
 p {
 	width: 60%;
+	
 	margin: 0 auto;
 	padding-top: 10%;
 	font-family: arial;
@@ -97,6 +98,7 @@ p {
 ul {
 	list-style-type: none;
 }
+
 
 
 
