@@ -26,7 +26,7 @@ p {
 	z-index: 999999;
 	top: 12%;
 	left: 50%;
-	margin-top: 130px;
+	margin-top: 130%;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
@@ -109,19 +109,23 @@ height: 500px;
 }
 
 .pt-page-3 {
-
+background-color: green;
+height: 500px;
 }
 
 .pt-page-4 {
-
+background-color: blue;
+height: 500px;
 }
 
 .pt-page-5 {
-
+background-color: red;
+height: 500px;
 }
 
 .pt-page-6 {
-
+background-color: beige;
+height: 500px;
 }
 
 /* Triggers (menu and button) */
