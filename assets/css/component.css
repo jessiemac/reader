@@ -127,7 +127,13 @@ ul {
 	color: rgba(0,0,0,0.1);
 }
 
+.page2  {
+	visibility: hidden;
+}
 
+.page2 ~ .pt-page-2:visited {
+	visibility: visible;
+}
 
 .pt-page-1 {
 height: 230%;
