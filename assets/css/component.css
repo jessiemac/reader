@@ -46,10 +46,10 @@ html, body { height: 100%;
 }
 
 .next {
-	background-color: pink;
+	background-color: beige;
+	margin-top: 66%;
+	height: 1000px;
 
-	height: 200px;
-	margin-top: 130%;
 
 }
 
@@ -101,14 +101,23 @@ html, body { height: 100%;
 /* Text Styles, Colors, Backgrounds */
 
 
+
+
 .image1overlay {
-position: fixed;
+	position: relative;;
+
 }
 
 .image1 {
-	position: absolute;
+	position: fixed; top: 20; left: 0;
+	z-index: 1000;
+	width: 100%;
 	opacity: .5;
 }
+
+
+
+
 
 .pt-page-1 {
 
@@ -138,9 +147,9 @@ position: fixed;
 
 #panel, #flip {
     padding: 5px;
-    text-align: left;
+    text-align: center;
     background: transparent;
-		width: auto;
+		width: 100%;
 }
 
 #panel {

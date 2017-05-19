@@ -19,42 +19,11 @@ $(document).ready(function(){
 });
 </script>
 <script>
-$(function() {
-var windw = this;
 
-$.fn.followTo = function ( elem ) {
-    var $this = this,
-        $window = $(windw),
-        $bumper = $(elem),
-        bumperPos = $bumper.offset().top,
-        thisHeight = $this.outerHeight(),
-        setPosition = function(){
-            if ($window.scrollTop() > (bumperPos - thisHeight)) {
-                $this.css({
-                    position: 'fixed',
-                    top: (bumperPos - thisHeight)
-                });
-            } else {
-                $this.css({
-                    position: 'absolute',
-                    top: 0
-                });
-            }
-        };
-    $window.resize(function()
-    {
-        bumperPos = pos.offset().top;
-        thisHeight = $this.outerHeight();
-        setPosition();
-    });
-    $window.scroll(setPosition);
-    setPosition();
-};
-
-$('.image1overlay').followTo('.next');
-
-
+$(window).scroll(function(){
+    $(".image1").css("top",Math.max(0,700-$(this).scrollTop()));
 });
+
 </script>
 
 	</head>
@@ -63,9 +32,9 @@ $('.image1overlay').followTo('.next');
 <button id="flip">Menu</button>
 <div id="panel">
 <ul>
-	<li>Michel de Certeau</li>
-	<li>Lev Manovich</li>
-	<li>Henri Lefebrve</li>
+	<li><a href="micheldeCerteau/index.html">Michel de Certeau</a></li>
+	<li><a href="levManovich/index.html">Lev Manovich</a></li>
+	<li><a href="henriLefebvre/index.html">Henri Lefebrve</a></li>
 
 </ul>
 
