@@ -1,9 +1,5 @@
 html, body { height: 100%;
 
-
-
-
-
 }
 
 
@@ -24,7 +20,18 @@ p {
 }
 
 
-
+.pt-triggers {
+	position: absolute;
+	width: 300px;
+	z-index: 999999;
+	top: 12%;
+	left: 50%;
+	margin-top: 130px;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
 
 
 
