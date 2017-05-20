@@ -274,9 +274,10 @@ ul {
 
 
 .text {
+	
 	padding-top: 10%;
 	display: block;
-	height: 1100px;
+	height: 900px;
 	text-align: center;
 	background-color: rgb(0,82,159);
 	float: left;
@@ -286,9 +287,11 @@ ul {
 
 .next {
 	width: 100%;
-
+	margin-top: 5%;
+	padding-top: 5%;
 	height: auto;
 	padding-top: 20px;
+	float: left;
 
 }
 
