@@ -236,8 +236,10 @@ html, body { height: 100%;
 	width: 100%;
 	display: block;
 	float: left;
-
+	height: 930px;
+	background-color: rgb(186,238,243);
 	padding-top: 20px;
+	padding-bottom: 20px;
 	padding-left: 150px;
 }
 
@@ -256,12 +258,12 @@ html, body { height: 100%;
 }
 
 .imageleft {
-	border: .1px solid rgb(186,238,243);
+	border: .1px solid black;;
 
 }
 
 .imageright {
-	border: .1px solid rgb(186,238,243);
+	border: .1px solid black;
 
 }
 ul {
@@ -308,7 +310,7 @@ ul {
 	width: 36%;
 	float: left;
 	display: block;
-	background-color: rgb(186,238,243);
+	background-color: rgb(237,212,106);
 
 	height: 500px;
 }
