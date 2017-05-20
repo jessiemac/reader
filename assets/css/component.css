@@ -232,55 +232,98 @@ html, body { height: 100%;
 
 
 
+.top {
+	width: 100%;
+	display: block;
+	float: left;
+}
 
-.image1overlay {
-	position: relative;
-	padding-bottom: 10%;
+.imageleft {
+	width: 45%;
+	float: left;
 
 }
 
-.image1 {
-	position: fixed; top: 20; left: 0;
-	z-index: 1000;
-	width: 100%;
-	opacity: .3;
-	padding-top: 10%;
+.imageright {
+	width: 45%;
+	float: right;
+	opacity: .7;
 }
 
 ul {
 	list-style-type: none;
 }
 
-.title {
-	font-family: 'Gotham';
-	font-size: 3em;
-	width: 60%;
-	float: left;
-	padding-left: 5%;
-	padding-top: 3%;
-}
+
 
 .text {
-
+	padding-top: 10%;
 	display: block;
-	height: 1500px;
+	height: 1000px;
+	text-align: center;
+	background-color: rgb(0,82,159);
+	float: left;
+
 
 }
 
 .next {
+	width: 100%;
+	padding-bottom: 20%;
+	height: 1000px;
 
-	height: 1500px;
+}
+
+.left {
+	width: 32%;
+	float: left;
+	display: block;
+
+	background-color: rgb(226,176,240);
+	height: 500px;
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	font-style: normal;
+	color: white;
+	font-size: 2.5em;
+	text-align: center;
+
+}
+
+.middle {
+	width: 32%;
+	float: left;
+	display: block;
+
+
+	height: 500px;
+}
+
+.right {
+	width: 32%;
+	float: right;
+	display: block;
+
+	background-color: rgb(255,174,200);
+	height: 500px;
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	font-style: normal;
+	color: white;
+	font-size: 2.5em;
+	text-align: center;
 }
 
 .excerpt {
 	width: 60%;
 	margin: 0 auto;
-	padding-top: 15%;
+	padding-top: 10%;
 	font-family: 'GTSectra';
 	font-weight: normal;
 	font-style: normal;
 	font-size: 2.5em;
 	line-height: 1.2;
+	color: white;
 }
 
 .bottom1 {
@@ -300,12 +343,17 @@ background-color: pink;
 	font-style: normal;
 	font-family: 'GTSectra';
 	line-height: 1;
+	color: white;
 
 }
 
-.plate {
-	margin-left: 25%;
-	padding-top: 10%;
+.middlebar {
+	height: 60px;
+	background-color: rgb(186,238,243);
+	padding-top: 10px;
+	bottom: 10px;
+	display: block;
+	float: left;
 }
 
 div.pt-page-1 ~ .page2 {
@@ -339,7 +387,7 @@ div.pt-page-1 ~ .page2 {
 
 
 .pt-page-1 {
-height: 300%;
+height: 250%;;
 }
 
 .pt-page-2 {
