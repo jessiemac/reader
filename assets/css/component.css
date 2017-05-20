@@ -3,22 +3,7 @@ html, body { height: 100%;
 }
 
 
-.next {
 
-	display: block;
-	height: 1300px;
-
-}
-
-p {
-	width: 60%;
-
-	margin: 0 auto;
-	padding-top: 10%;
-	font-family: arial;
-	font-size: 2vw;
-	line-height: 1.3;
-}
 
 
 .pt-triggers {
@@ -27,11 +12,24 @@ p {
 	z-index: 999999;
 	top: 12%;
 	left: 50%;
-	margin-top: 130%;
+	margin-top: 200%;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
 	transform: translateX(-50%);
+}
+
+
+
+
+div.pt-page-1 ~ .page2 {
+	visibility: hidden;
+}
+
+
+
+.pt-page-2 ~ .page2 {
+	visibility: visible;
 }
 
 
@@ -127,21 +125,58 @@ ul {
 	color: rgba(0,0,0,0.1);
 }
 
-.page2  {
+.text {
+
+	display: block;
+	height: 1500px;
+
+}
+
+p {
+	width: 60%;
+
+	margin: 0 auto;
+	padding-top: 10%;
+	font-family: arial;
+	font-size: 1vw;
+	line-height: 1.3;
+}
+
+.bottom1 {
+	height: 1500px;
+	background-color: green;
+}
+
+.bottom2 {
+height: 1500px;
+background-color: green;
+
+}
+
+
+
+div.pt-page-1 ~ .page2 {
 	visibility: hidden;
 }
 
-.page2 ~ .pt-page-2:visited {
+
+
+.pt-page-2 ~ .page2 {
 	visibility: visible;
 }
 
+
+
+
+
 .pt-page-1 {
-height: 230%;
+height: 300%;
 }
 
 .pt-page-2 {
+margin-top: 140%;
 background-color: pink;
-height: 500px;
+height: 1500px;
 
 }
 
@@ -203,8 +238,6 @@ button
 	cursor: pointer;
 	display: block;
 	background: transparent;
-
-
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
