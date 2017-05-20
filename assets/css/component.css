@@ -419,6 +419,19 @@ margin-left: 2%;
 	font-size: 6em;
 }
 
+.righttitle {
+	visibility: hidden;
+}
+
+.righttitle.showme {
+	visibility: visible;
+}
+
+.imageright:hover {
+	opacity: 0;
+	transition: 2s;
+}
+
 .title {
 	text-align: center;
 	font-family: 'Gotham Book';
