@@ -571,12 +571,14 @@ button
 
 	background-color: rgb(186,238,243);
 	height: 900px;
+	width: 100%;
 }
 
 .middle-page2 {
 
 	background-color: rgb(226,176,240);
 	height: 1000px;
+	width: 100%;
 }
 
 .bottom-page2 {
@@ -610,4 +612,28 @@ font-size: 6em;
 color: black;
 
 
+}
+
+
+
+.tp-left2 {
+	width: 33%;
+	display: inline-block;
+}
+.tp-middle2{
+width: 33%;
+display: inline-block;
+}
+
+
+.tp-right2 {
+width: 33%;
+display: inline-block;
+}
+
+
+
+.md-middle2 {
+	width: 60%;
+	margin: 0 auto;
 }
