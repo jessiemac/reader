@@ -274,7 +274,7 @@ ul {
 
 
 .text {
-	
+
 	padding-top: 10%;
 	display: block;
 	height: 900px;
@@ -287,8 +287,8 @@ ul {
 
 .next {
 	width: 100%;
-	margin-top: 5%;
-	padding-top: 5%;
+
+
 	height: auto;
 	padding-top: 20px;
 	float: left;
@@ -371,11 +371,52 @@ background-color: pink;
 .middlebar {
 	height: 100px;
 	background-color: white;
-	padding-top: 10px;
-	bottom: 10px;
-	display: block;
-padding-bottom: 20px;
+	font-family: 'Gotham Book';
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: .1em;
 
+width: 100%;
+	display: inline-block;
+}
+
+.leftleftbar {
+	width: 33%;
+	float: left;
+	display: inline-block;
+	text-align: right;
+	vertical-align: middle;
+	padding-top: 10px;
+
+}
+.leftbar {
+	width: 33%;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+
+
+}
+.rightbar {
+	width: 33%;
+	float: left;
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 10px;
+}
+
+.toptitle {
+	position: absolute;
+	color: black;
+	position: absolute;
+margin-top: -13%;
+margin-left: 2%;
+	font-family: 'GTSectra';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 6em;
 }
 
 .title {
