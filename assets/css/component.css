@@ -277,7 +277,7 @@ ul {
 
 	padding-top: 10%;
 	display: block;
-	height: 900px;
+	height: 960px;
 	text-align: center;
 	background-color: rgb(0,82,159);
 	float: left;
@@ -347,16 +347,6 @@ ul {
 	color: white;
 }
 
-.bottom1 {
-	height: 1200px;
-	background-color: green;
-}
-
-.bottom2 {
-height: 1200px;
-background-color: pink;
-
-}
 
 .footnote {
 	font-size: .5em;
@@ -428,6 +418,7 @@ margin-left: 2%;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 6em;
+	color: white;
 
 }
 
@@ -435,6 +426,8 @@ margin-left: 2%;
 	opacity: 1;
 	transition: 2s;
 }
+
+
 
 .imageright:hover {
 	opacity: 0;
@@ -563,4 +556,58 @@ button
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+}
+
+
+/*page2 of henri/*
+
+<div class="top-page2"></div>
+<div class="middle-page2"></div>
+<div class="bottom-page2"></div>
+
+*/
+
+.top-page2 {
+
+	background-color: rgb(186,238,243);
+	height: 900px;
+}
+
+.middle-page2 {
+
+	background-color: rgb(226,176,240);
+	height: 1000px;
+}
+
+.bottom-page2 {
+
+	background-color: rgb(237,212,106);
+	height: 780px;
+}
+
+.bt-left {
+display: inline-block;
+width: 48%;
+text-align: center;
+padding-top: 10%;
+font-family: 'GTSectra';
+font-weight: normal;
+font-style: normal;
+font-size: 6em;
+color: black;
+}
+
+.bt-right {
+	display: inline-block;
+width: 48%;
+text-align: center;
+vertical-align: middle;
+padding-top: 10%;
+font-family: 'GTSectra';
+font-weight: normal;
+font-style: normal;
+font-size: 6em;
+color: black;
+
+
 }
