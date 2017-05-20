@@ -583,7 +583,7 @@ button
 
 .bottom-page2 {
 
-	background-color: rgb(237,212,106);
+
 	height: 780px;
 }
 
@@ -599,19 +599,9 @@ font-size: 6em;
 color: black;
 }
 
-.bt-right {
-	display: inline-block;
-width: 48%;
-text-align: center;
-vertical-align: middle;
-padding-top: 10%;
-font-family: 'GTSectra';
-font-weight: normal;
-font-style: normal;
-font-size: 6em;
-color: black;
-
-
+.book {
+	position: fixed;
+	padding-left: 50%;
 }
 
 
