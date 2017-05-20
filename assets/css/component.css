@@ -457,6 +457,10 @@ height: 500px;
 		width: 100%;
 		font-size: 3em;
 		list-style-type: none;
+		font-family: 'Gotham Book';
+		font-weight: normal;
+		font-style: normal;
+		letter-spacing: .1em;
 }
 
 
