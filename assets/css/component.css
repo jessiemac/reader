@@ -265,6 +265,7 @@ html, body { height: 100%;
 .imageright {
 	border: .1px solid black;
 
+
 }
 ul {
 	list-style-type: none;
@@ -287,6 +288,7 @@ ul {
 	width: 100%;
 	padding-bottom: 20%;
 	height: 1000px;
+	padding-top: 20px;
 
 }
 
@@ -364,12 +366,13 @@ background-color: pink;
 }
 
 .middlebar {
-	height: 60px;
-	background-color: rgb(186,238,243);
+	height: 100px;
+	background-color: white;
 	padding-top: 10px;
 	bottom: 10px;
 	display: block;
-	float: left;
+padding-bottom: 20px;
+
 }
 
 .title {
@@ -392,7 +395,9 @@ div.pt-page-1 ~ .page2 {
 }
 
 
-
+.plate {
+	padding-left: 5%;
+}
 
 
 
