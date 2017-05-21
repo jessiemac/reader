@@ -570,14 +570,14 @@ button
 .top-page2 {
 
 	background-color: rgb(186,238,243);
-	height: 900px;
+	height: 700px;
 	width: 100%;
 }
 
 .middle-page2 {
 
-	background-color: rgb(226,176,240);
-	height: 730px;
+	display: inline-block;
+	height: 500px;
 	width: 100%;
 }
 
@@ -585,11 +585,11 @@ button
 	width: 100%;
 	display: block;
 
-	padding-top: 20px;
+	padding-top: 100px;
 
-	padding-left: 150px;
 
-	height: 1100px;
+
+	height: 1350px;
 	background-color: rgb(186,238,243);
 
 
@@ -601,7 +601,7 @@ display: inline-block;
 border: .1px solid black;
 padding-left: 30px;
 padding-right: 30px;
-padding-bottom: 20px;
+
 padding-top: 20px;
 background-color: white;
 
@@ -627,10 +627,25 @@ background-color: white;
 .case4 {
 width: 40%;
 display: inline-block;
-border: .1px solid black;;
+border: .1px solid black;
+padding-left: 30px;
+padding-right: 30px;
+
+padding-top: 20px;
+background-color: white;
 
 
 }
+
+.case4p {
+	font-family: 'GTSectra';
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.2;
+	font-size: 2em;
+}
+
+
 .book {
 	position: fixed;
 	padding-left: 50%;
@@ -658,4 +673,28 @@ display: inline-block;
 .md-middle2 {
 	width: 60%;
 	margin: 0 auto;
+}
+
+
+.left2 {
+	display: inline-block;
+	width: 33%;
+	background-color: rgb(219,98,89);
+	height: 500px;
+
+}
+.middle2 {
+	display: inline-block;
+	width: 33%;
+	background-color: rgb(232,182,49);
+	height: 500px;
+}
+.right2 {
+	display: inline-block;
+	width: 33%;
+	background-color: rgb(219,98,89);height: 500px;
+}
+
+.description2 {
+	height: 100px;
 }
