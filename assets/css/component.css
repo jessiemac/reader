@@ -230,6 +230,39 @@ html, body { height: 100%;
 
 /* Text Styles, Colors, Backgrounds */
 
+.head {
+padding-left: 10%;
+}
+
+.homecase2 {
+	background-color: none;
+	display: inline-block;
+	width: 49%;
+}
+
+.homecase1 {
+	display: inline-block;
+	width: 49%;
+
+}
+.tophome {
+
+	width: 100%;
+	height: 30%;
+}
+.toplefthome {
+
+
+	float: left;
+	display: block;
+}
+
+.topbottomhome {
+	padding-left: 50%;
+	height: 45%;
+	float: left;
+	display: block;
+}
 
 
 .top {
@@ -691,7 +724,7 @@ background-color: white;
 
 .bookquote {
 	opacity: 0;
-	
+
 	position: absolute;
 	width: 30%;
 	margin-top: -20%;
