@@ -268,7 +268,7 @@ padding-left: 10%;
 	float: right;
 	display: block;
 
-	
+
 	height: 500px;
 	font-family: 'Gotham Rounded';
 	font-weight: bold;
@@ -276,6 +276,31 @@ padding-left: 10%;
 	color: white;
 	font-size: 2.5em;
 	text-align: center;
+}
+
+.lefthome {
+	width: 32%;
+	float: left;
+	display: block;
+
+
+	height: 500px;
+	font-family: 'Gotham Rounded';
+	font-weight: bold;
+	font-style: normal;
+	color: white;
+	font-size: 2.5em;
+	text-align: center;
+
+}
+
+.middlehome {
+	width: 36%;
+	float: left;
+	display: block;
+	
+
+	height: 500px;
 }
 
 
