@@ -282,16 +282,18 @@ padding-left: 10%;
 }
 
 .lefthome {
-	width: 20%;
+	width: 40%;
 	float: left;
 	display: block;
+	padding-left: 5%;
+	padding-top: 15%;
 
 
 	height: 500px;
 	font-family: 'Gotham Rounded';
 	font-weight: bold;
 	font-style: normal;
-	color: white;
+	color: black;
 	font-size: 2.5em;
 	text-align: center;
 
