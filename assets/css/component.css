@@ -680,8 +680,29 @@ background-color: white;
 }
 
 
+.book:hover {
+	opacity: 0;
+	transition: 1s;
+}
+.book:hover ~ .bookquote {
+	opacity: 1;
+	transition: 1s;
+}
 
-
+.bookquote {
+	opacity: 0;
+	
+	position: absolute;
+	width: 30%;
+	margin-top: -20%;
+	padding: 20px;
+	font-family: 'GTSectra';
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.2;
+	font-size: 2em;
+	text-align: center;
+}
 
 
 
