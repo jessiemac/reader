@@ -116,7 +116,7 @@ html, body { height: 2700px;
 #panel, #flip {
 
     text-align: center;
-		background-color: rgb(255,247,223);
+		background-color: rgb(223,209,170);
 		width: 100%;
 
 }
@@ -145,7 +145,7 @@ button
 	font-style: normal;
 	font-size: 1em;
 	text-transform: uppercase;
-	background-color: rgb(255,247,223);
+	background-color:
 	line-height: 40px;
 	height: 40px;
 	width: 100%;
@@ -174,32 +174,14 @@ ul {
 	display: block;
 	float: left;
 	height: 900px;
-	background-color: rgb(251,199,186);
-	padding-top: 40px;
+	background-color: rgb(233,233,225);
+	
 	padding-bottom: 20px;
 	padding-left: 150px;
 	padding-right: 150px;
 }
 
 
-
-.case1 {
-	width: 45%;
-	float: left;
-}
-
-.case2 {
-	width: 45%;
-	float: left;
-}
-
-.imageleft {
-	border: .1px solid black;
-}
-
-.imageright {
-	border: .1px solid black;
-}
 
 
 .middlebar {
