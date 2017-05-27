@@ -5,16 +5,17 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Critique of Everyday Life</title>
-		<meta name="description" content="A Collection of Page Transitions with CSS Animations" />
-		<meta name="keywords" content="page transition, css animation, website, effect, css3, jquery" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" type="text/css" href="assets/css/default.css" />
+
+
 		<link rel="stylesheet" type="text/css" href="assets/css/multilevelmenu.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/animations.css" />
 		<script src="assets/js/modernizr.custom.js"></script>
-		<script src="assets/js/jquery-3.2.0.min.js"></script>
+
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script src="assets/js/jquery.scrollSlide.js"></script>
+
 
 		<script>
 $(document).ready(function(){
@@ -23,20 +24,57 @@ $(document).ready(function(){
 		});
 });
 </script>
+
 <script>
 
-$(window).scroll(function(){
-    $(".book").css("top",Math.max(0,250-$(this).scrollTop()));
+
+
+</script>
+
+
+<script>
+$(document).ready(function() {
+$(".topsub").hide();
+ $(".topimg").hover(function() {
+	 $(".topsub").show("slide",500 ); // Show
+ })
 });
 
+$(document).ready(function() {
+$(".toptitle").hide();
+ $(".topimg").hover(function() {
+	 $(".toptitle").show("slide",600 ); // Show
+ })
+});
+
+$(document).ready(function() {
+$(".middlesub").hide();
+ $(".middleimg").hover(function() {
+	 $(".middlesub").show("slide",500 ); // Show
+ })
+});
+
+$(document).ready(function() {
+$(".middletitle").hide();
+ $(".middleimg").hover(function() {
+	 $(".middletitle").show("slide",600 ); // Show
+ })
+});
+$(document).ready(function() {
+$(".bottomsub").hide();
+ $(".bottomimg").hover(function() {
+	 $(".bottomsub").show("slide",500 ); // Show
+ })
+});
+
+$(document).ready(function() {
+$(".bottomtitle").hide();
+ $(".bottomimg").hover(function() {
+	 $(".bottomtitle").show("slide",600 ); // Show
+ })
+});
 </script>
 
-<script>
-
-</script>
-
-
-</script>
 
 
 	</head>
@@ -44,10 +82,10 @@ $(window).scroll(function(){
 		<button id="flip">Menu</button>
 		<div id="panel">
 		<ul>
-			<li><a href="../index.html">Home</a></li>
-			<li><a href="../mC/index.html">Michel de Certeau</a></li>
-			<li><a href="../lM/index.html">Lev Manovich</a></li>
-			<li><a href="index.html">Henri Lefebrve</a></li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="mC/index.html">Michel de Certeau</a></li>
+			<li><a href="lM/index.html">Lev Manovich</a></li>
+			<li><a href="hL/index.html">Henri Lefebrve</a></li>
 
 		</ul>
 
@@ -58,26 +96,23 @@ $(window).scroll(function(){
 
 		<div id="pt-main" class="pt-perspective">
 			<div class="pt-page pt-page-1">
-				<div class="top">
-				<div class="case1">
-								<img id="img" class="imageleft" src="assets/images/gold-extracted.png" width="80%">
+
+
+
+						<div class="top">
+
+								<img class="topimg" src="assets/images/gold-extracted.png" width="70%">
 				<p id="top1"><span class="topsub">MYTHS OF EVERYDAY LIFE</span><br>
 					<span class="toptitle">Henri Lefebrve</span>
-
-
-
 				</p>
 							</div>
 
-						<div class="case2">
-								<img class="imageright" src="assets/images/gold.png" width="80%">
-								<p class="righttitle">Myths of Everyday Life</p>
-						</div>
 
-							</div>
+
+
 
 							<div class="middlebar">
-							<img id="img" src="assets/images/keepclear.jpg" width="100%">
+<img class="middleimg" src="assets/images/red-extracted.png" width="50%">
 							<p id="middle1"><span class="middlesub">MYTHS OF EVERYDAY LIFE</span><br>
 								<span class="middletitle">Henri Lefebrve</span>
 
@@ -88,9 +123,9 @@ $(window).scroll(function(){
 							</div>
 
 							<div class="next">
-							<img id="img" src="assets/images/Sampson_5.jpg" width="100%">
-							<p id="middle1"><span class="middlesub">MYTHS OF EVERYDAY LIFE</span><br>
-								<span class="middletitle">Henri Lefebrve</span>
+<img class="bottomimg" src="assets/images/red-extracted.png" width="50%">
+							<p id="bottom1"><span class="bottomsub">MYTHS OF EVERYDAY LIFE</span><br>
+								<span class="bottomtitle">Henri Lefebrve</span>
 
 
 
@@ -115,7 +150,7 @@ $(window).scroll(function(){
 
 					<div class="top">
 					<div class="case1">
-									<img id="img" class="imageleft" src="assets/images/gold-extracted.png" width="80%">
+									<img class="imageleft" src="assets/images/gold-extracted.png" width="80%">
 					<p id="top1"><span class="topsub">MYTHS OF EVERYDAY LIFE</span><br>
 						<span class="toptitle">Henri Lefebrve</span>
 
@@ -129,7 +164,7 @@ $(window).scroll(function(){
 								</div>
 
 								<div class="middlebar">
-								<img id="img" src="assets/images/tv.png" width="120%">
+								<img src="assets/images/tv.png" width="120%">
 								<p id="middle1"><span class="middlesub">MYTHS OF EVERYDAY LIFE</span><br>
 									<span class="middletitle">Henri Lefebrve</span>
 
@@ -140,7 +175,7 @@ $(window).scroll(function(){
 								</div>
 
 								<div class="next">
-								<img id="img" src="assets/images/Taps_Web.jpg" width="100%">
+								<img src="assets/images/Taps_Web.jpg" width="100%">
 								<p id="middle1"><span class="middlesub">MYTHS OF EVERYDAY LIFE</span><br>
 									<span class="middletitle">Henri Lefebrve</span>
 
@@ -179,18 +214,10 @@ $(window).scroll(function(){
 		</div>
 
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 		<script src="assets/js/jquery.dlmenu.js"></script>
 		<script src="assets/js/pagetransitions.js"></script>
-		<script>
-		<script>
-		jQuery(function($) {
-				$('.text').each(function() {
-						$(this).html($(this).html().replace(/\s([^\s<]+)\s*$/,'&nbsp;$1'));
-				});
-		});
-		</script>
 
-		</script>
+
 	</body>
 </html>

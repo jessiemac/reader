@@ -65,6 +65,8 @@ html, body { height: 2700px;
 .pt-touch-button {
 	float: left;
 	opacity: 1;
+	background-color: rgb(223,209,170);
+
 }
 
 
@@ -116,7 +118,7 @@ html, body { height: 2700px;
 #panel, #flip {
 
     text-align: center;
-		background-color: rgb(255,247,223);
+		background-color: rgb(223,209,170);
 		width: 100%;
 
 }
@@ -145,7 +147,7 @@ button
 	font-style: normal;
 	font-size: 1em;
 	text-transform: uppercase;
-	background-color: rgb(255,247,223);
+
 	line-height: 40px;
 	height: 40px;
 	width: 100%;
@@ -174,56 +176,39 @@ ul {
 	display: block;
 	float: left;
 	height: 900px;
-	background-color: rgb(251,199,186);
-	padding-top: 40px;
-	padding-bottom: 20px;
-	padding-left: 150px;
-	padding-right: 150px;
+
+
+
+
 }
 
-
-
-.case1 {
-	width: 45%;
-	float: left;
-}
-
-.case2 {
-	width: 45%;
-	float: left;
-}
-
-.imageleft {
-	border: .1px solid black;
-}
-
-.imageright {
-	border: .1px solid black;
-}
 
 
 .middlebar {
-	height: 900px;
+	display: block;
+	height: 930px;
 	float: left;
-	background-color: rgb(255,247,223);
-	width: 100%;
 
+	width: 100%
 }
+
 
 .next {
 	width: 100%;
+	display: block;
 	float: left;
-	height: 900px;
+	height: 930px;
 
-	background-color: rgb(211,243,243);
+
+
 
 }
 
 #top1 {
 	position: absolute;
 	width: 100%;
-	margin-top: -10%;
-	padding-left: 15%;
+	margin-top: -50%;
+	padding-left: 25%;
 }
 
 
@@ -233,7 +218,7 @@ ul {
 .toptitle {
 	position: absolute;
 	color: black;
-	background-color: rgb(255,243,182);
+	background-color: rgb(223,209,170);
 	font-family: 'Sofia Pro Semi';
 	font-weight: 600;
 	font-style: normal;
@@ -242,7 +227,7 @@ ul {
 .topsub  {
 	position: absolute;
 	color: black;
-	background-color: rgb(255,243,182);
+	background-color: rgb(223,209,170);
 	font-family: 'Sofia Pro';
 	font-weight: normal;
 	font-style: normal;
@@ -254,11 +239,10 @@ ul {
 	position: absolute;
 	width: 100%;
 	margin-left: 25%;
-	margin-top: -30%;
+	margin-top: -25%;
+
 
 }
-
-
 .middletitle {
 	position: absolute;
 	color: black;
@@ -280,24 +264,41 @@ ul {
 
 }
 
-.righttitle {
-	opacity: 0;
-	margin-top: -75%;
-	margin-left: -15%;
+
+
+
+
+
+#bottom1 {
+	position: absolute;
+	width: 100%;
+	margin-left: 25%;
+	margin-top: -20%;
 
 }
 
-.righttitle.showme {
-	opacity: 1;
-	transition: 2s;
+.bottomtitle {
+	position: absolute;
+	color: black;
+	background-color: rgb(251,199,186);
+	font-family: 'Sofia Pro Semi';
+	font-weight: 600;
+	font-style: normal;
+	font-size: 4em;
+}
+.bottomsub {
+	position: absolute;
+	color: black;
+	background-color: rgb(251,199,186);
+	font-family: 'Sofia Pro';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+
+
 }
 
 
-
-.imageright:hover {
-	opacity: 0;
-	transition: 2s;
-}
 
 
 
@@ -330,9 +331,7 @@ ul {
 
 }
 
-#img {
-	opacity: .5;
-}
+
 
 
 

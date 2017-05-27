@@ -65,10 +65,9 @@ html, body { height: 2700px;
 .pt-touch-button {
 	float: left;
 	opacity: 1;
+	background-color: rgb(0,0,0);
+
 }
-
-
-
 
 .pt-perspective {
 	position: relative;
@@ -116,7 +115,7 @@ html, body { height: 2700px;
 #panel, #flip {
 
     text-align: center;
-		background-color: rgb(223,209,170);
+		background-color: rgb(0,0,0);
 		width: 100%;
 
 }
@@ -132,7 +131,7 @@ html, body { height: 2700px;
 		font-weight: normal;
 		font-style: normal;
 		letter-spacing: .1em;
-		color: black;
+		color: white;
 }
 
 
@@ -145,7 +144,7 @@ button
 	font-style: normal;
 	font-size: 1em;
 	text-transform: uppercase;
-	background-color:
+	color: rgb(255,255,255);
 	line-height: 40px;
 	height: 40px;
 	width: 100%;
@@ -161,7 +160,7 @@ button
 
 ul {
 	list-style-type: none;
-	background-color: rgb(219,243,207);
+	background-color: rgb(255,240,54);
 	text-align: center;
 	width: 100%;
 	height: 100%;
@@ -169,41 +168,46 @@ ul {
 
 
 
+
 .top {
 	width: 100%;
 	display: block;
 	float: left;
-	height: 900px;
-	background-color: rgb(233,233,225);
+	height: 930px;
+	background:url(../images/shoes.png) no-repeat center center;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;}
 
 
 
 }
-
 
 
 
 .middlebar {
-	height: 900px;
-	float: left;
-	background-color: rgb(255,247,223);
 	width: 100%;
+	display: flex;
+	float: left;
+
+	background:url(../images/keepclear.jpg) no-repeat center center;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;}
 
 }
 
-.next {
-	width: 100%;
-	float: left;
-	height: 900px;
 
-	background-color: rgb(211,243,243);
 
-}
 
 #top1 {
 	position: absolute;
 	width: 100%;
-	margin-top: -10%;
+	margin-top: 50%;
 	padding-left: 15%;
 }
 
@@ -214,7 +218,7 @@ ul {
 .toptitle {
 	position: absolute;
 	color: black;
-	background-color: rgb(255,243,182);
+	background-color: rgb(253,219,109);
 	font-family: 'Sofia Pro Semi';
 	font-weight: 600;
 	font-style: normal;
@@ -223,7 +227,7 @@ ul {
 .topsub  {
 	position: absolute;
 	color: black;
-	background-color: rgb(255,243,182);
+	background-color: rgb(253,219,109);
 	font-family: 'Sofia Pro';
 	font-weight: normal;
 	font-style: normal;
@@ -234,17 +238,16 @@ ul {
 #middle1 {
 	position: absolute;
 	width: 100%;
-	margin-left: 25%;
-	margin-top: -30%;
+	margin-left: 15%;
+	margin-top: -15%;
+
 
 }
-
-
 .middletitle {
 	position: absolute;
 	color: black;
-	background-color: rgb(251,199,186);
-	font-family: 'Sofia Pro Semi';
+	background-color: rgb(253,219,109);
+	font-family: 'DIN';
 	font-weight: 600;
 	font-style: normal;
 	font-size: 4em;
@@ -261,59 +264,126 @@ ul {
 
 }
 
-.righttitle {
-	opacity: 0;
-	margin-top: -75%;
-	margin-left: -15%;
+.middlebottom {
+	position: absolute;
+	width: 60%;
+	margin: 0 auto;
+	height: 350px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'DIN';
+	font-size: 1.3em;
+	line-height: 1.4;
+	background-color: rgb(255,255,255);
+	margin-top: 100%;
+	margin-left: 20%;
+
 
 }
 
-.righttitle.showme {
-	opacity: 1;
-	transition: 2s;
+
+h1 {
+	position: absolute;
 }
 
 
 
-.imageright:hover {
-	opacity: 0;
-	transition: 2s;
+
+.bottomleft {
+	margin-top: 5%;
+	background-color: rgb(255,255,255);
+	height: 700px;
+	width: 30%;
+	margin-right: 2.5%;
+
+
+
 }
 
+.bottomright {
+	margin-top: 5%;
+	background-color: rgb(255,255,255);
+	height: 700px;
+	width: 30%;
+	margin-left: 2.5%;
+
+
+
+
+}
+
+.bbottom {
+	height: 350px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'DIN';
+	line-height: 1.4;
+}
+
+.btop {
+	height: 350px;
+
+}
+
+.next {
+	width: 100%;
+	display: flex;
+	float: left;
+	height: 930px;
+
+  justify-content: center;
+	background:url(../images/sunset.jpg) no-repeat center center;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+}
 
 
 .top2 {
 	width: 100%;
 	display: block;
 	float: left;
-	height: 900px;
-	background-color: rgb(251,199,186);
-	padding-top: 40px;
-	padding-bottom: 20px;
-	padding-left: 150px;
-	padding-right: 150px;
+	height: 930px;
+
+
+
+
+
 }
 
+
+
+
+
 .middlebar2 {
-	height: 900px;
+	height: 930px;
 	float: left;
-	background-color: rgb(255,247,223);
+
 	width: 100%;
+
+	background:url(../images/sunset.jpg) no-repeat center center;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
 
 }
 
 .next2 {
 	width: 100%;
 	float: left;
-	height: 900px;
+	height: 930px;
 
-	background-color: rgb(211,243,243);
+	
 
 }
 
-#img {
-	opacity: .5;
-}
+
 
 
 
@@ -326,7 +396,7 @@ height: 2800px;
 
 .pt-page-2 {
 	height: 2800px;
-	background-color: pink;
+
 
 
 }
