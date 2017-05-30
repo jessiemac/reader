@@ -16,7 +16,6 @@
 	  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 		<script src="assets/js/jquery.scrollSlide.js"></script>
 
-
 		<script>
 $(document).ready(function(){
 		$("#flip").click(function(){
@@ -35,28 +34,28 @@ $(document).ready(function(){
 <script>
 $(document).ready(function() {
 $(".topsub").hide();
- $(".topimg").hover(function() {
+ $(".top").hover(function() {
 	 $(".topsub").show("slide",500 ); // Show
  })
 });
 
 $(document).ready(function() {
 $(".toptitle").hide();
- $(".topimg").hover(function() {
+ $(".top").hover(function() {
 	 $(".toptitle").show("slide",600 ); // Show
  })
 });
 
 $(document).ready(function() {
 $(".middlesub").hide();
- $(".middleimg").hover(function() {
+ $(".middlebar").hover(function() {
 	 $(".middlesub").show("slide",500 ); // Show
  })
 });
 
 $(document).ready(function() {
 $(".middletitle").hide();
- $(".middleimg").hover(function() {
+ $(".middlebar").hover(function() {
 	 $(".middletitle").show("slide",600 ); // Show
  })
 });
@@ -73,6 +72,20 @@ $(".bottomtitle").hide();
 	 $(".bottomtitle").show("slide",600 ); // Show
  })
 });
+
+$(document).ready(function() {
+$(".bottomleft").hide();
+ $(".next").hover(function() {
+	 $(".bottomleft").show("slide",500 ); // Show
+ })
+});
+
+$(document).ready(function() {
+$(".bottomright").hide();
+ $(".next").hover(function() {
+	 $(".bottomright").show("slide",600 ); // Show
+ })
+});
 </script>
 
 
@@ -82,10 +95,12 @@ $(".bottomtitle").hide();
 		<button id="flip">Menu</button>
 		<div id="panel">
 		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="mC/index.html">Michel de Certeau</a></li>
-			<li><a href="lM/index.html">Lev Manovich</a></li>
-			<li><a href="hL/index.html">Henri Lefebrve</a></li>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../hl/index.html">Henri Lefebrve</a></li>
+			<li><a href="../hb/index.html">Hughes C. Boekraad</a></li>
+			<li><a href="index.html">Michel de Certeau</a></li>
+
+
 
 		</ul>
 
@@ -100,11 +115,12 @@ $(".bottomtitle").hide();
 
 
 						<div class="top">
+							<p id="top1"><span class="topsub"></span><br>
+								<span class="toptitle">Michel de Certeau</span><br>
+								<span class="topsub2">THE PRACTICE OF EVERYDAY LIFE</span>
+							</p>
 
-								<img class="topimg" src="assets/images/gold-extracted.png" width="70%">
-				<p id="top1"><span class="topsub">MYTHS OF EVERYDAY LIFE</span><br>
-					<span class="toptitle">Henri Lefebrve</span>
-				</p>
+<img src="assets/images/Taps_Web.jpg" width="100%">
 							</div>
 
 
@@ -112,26 +128,57 @@ $(".bottomtitle").hide();
 
 
 							<div class="middlebar">
-<img class="middleimg" src="assets/images/red-extracted.png" width="50%">
-							<p id="middle1"><span class="middlesub">MYTHS OF EVERYDAY LIFE</span><br>
-								<span class="middletitle">Henri Lefebrve</span>
+								<div class="middlebottom">
+									<p>EVERYDAY PRACTICES depend on a vast ensemble which is difficult to delimit but which we may provisionally designate as an ensemble of procedures. The latter are schemas of operations and of technical manipulations. On the basis of some recent and fundamental analyses (those of Foucault, Bourdieu, Vernant and Detienne, and others) it is possible, if not to define them, at least to clarify their functioning relative to discourse (or to "ideology," as Foucault puts it), to the acquired (Bourdieu's habitus), and to the form of time we call an occasion (the kairos discussed by Vernant and Detienne). These are different ways of locating a technicity of a certain type and at the same time situating the study of this technicity with respect to current trends in research. By situating this essay in a larger ensemble and at a point that has already been written on (in spite of a persistent fiction, we never write on a blank page, but always on one that has already been written on), I seek neither to present a review of the theoretical and descriptive works that have organized the question or illuminated it obliquely (a review that would in any case be illusory), nor merely to acknowledge my debts.</p>
+
+
+								</div>
+
+							<p id="middle1"><br>
+								<span class="middletitle">Theories of the Art of Practice</span>
 
 
 
 							</p>
+
+
 
 							</div>
 
 							<div class="next">
-<img class="bottomimg" src="assets/images/red-extracted.png" width="50%">
-							<p id="bottom1"><span class="bottomsub">MYTHS OF EVERYDAY LIFE</span><br>
-								<span class="bottomtitle">Henri Lefebrve</span>
 
 
+								<div class="bottomleft">
+									<div class="btop">
+										<video width="380" height="320" controls>
+											<source src="assets/video/footage.mp4" type="video/mp4">
 
-							</p>
+											</video>
+									</div>
+									<div class="bbottom">
+									<p><span class="everyday">Everyday Extrordinaire</span><br><br>What is at stake is the status of the analysis and its relation to its object. As in a workshop or laboratory, the objects produced by an inquiry result from its (more or less original) contribution to the field that has made it possible. They thus refer to a "state of the question"—that is, to a network of professional and textual exchanges, to the "dialectic" of an inquiry in progress. From this point of view, the "objects" of our research cannot be detached from the intellectual and social "commerce" that organizes their definition and their displacements.</p>
+								</div>
+							</div>
+
+								<div class="bottomright">
+									<div class="btop">
+										<video width="380" height="320" controls>
+											<source src="assets/video/filmscratches.mp4" type="video/mp4">
+
+											</video>
+
+									</div>
+									<div class="bbottom">
+									<p><br><br>In "forgetting" the collective inquiry in which he is inscribed, in isolat-ing the object of his discourse from its historical genesis, an "author" in effect denies his real situation. He creates the fiction of a place of his own (une place propre). In spite of the contradictory ideologies that may accompany it, the setting aside of the subject-object relation or of the discourse- object relation is the abstraction that generates an illusion of "authorship." It removes the traces of belonging to a network—traces that always compromise the author's rights.</p>
+								</div>
+
+							</div>
+<div class="transparent"></div>
+
+
 
 											</div>
+
 											<div class="pt-triggers">
 												<button id="iterateEffects" class="pt-touch-button">Next</button>
 												<div id="dl-menu" class="dl-menuwrapper">
@@ -146,42 +193,81 @@ $(".bottomtitle").hide();
 
 
 				<div class="pt-page pt-page-2">
+					<div class="top2">
+<div class=top2top>
+<div class="top2left">
+<p>“Moreover, the question at hand concerns modes of operation or schemata of action, and not directly the subjects (or persons) who are their authors or vehicles. It concerns an operational logic whose models have in any case been concealed by the form of rationality  dominant in Western culture.”</p>
+</div>
+<div class="top2right">
+	<video width="380" height="320" controls>
+		<source src="assets/video/filmscratches.mp4" type="video/mp4">
+
+		</video>
+</div>
+</div>
+<div class="top2bottom">
+<p>In our examination of the daily practices that articulate that experience, the opposition between "place" and "space" will rather refer to two sorts of determinations in stories: the first, a determination through objects that are ultimately reducible to the being-there of something dead, the law of a "place" (from the pebble to the cadaver, an inert body always seems, in the West, to found a place and give it the appearance of a tomb); the second, a determination through operations which, when they are attributed to a stone, tree, or human being, specify "spaces" by the actions of historical subjects (a movement always seems to condition the production of a space and to associate it with a history). Between these two determinations, there are passages back and forth, such as the putting to death (or putting into a landscape) of heroes who transgress frontiers and who, guilty of an offense against the law of the place, best provide its restoration with their tombs; or again, on the contrary, the awakening of inert objects (a table, a forest, a person that plays a certain role in the environment) which, emerging from their stability, transform the place where they lay motionless into the foreignness of their own space.
+</p>
+</div>
+
+<img src="assets/images/newspaper.jpg" width="120%">
 
 
-					<div class="top">
-					<div class="case1">
-									<img class="imageleft" src="assets/images/gold-extracted.png" width="80%">
-					<p id="top1"><span class="topsub">MYTHS OF EVERYDAY LIFE</span><br>
-						<span class="toptitle">Henri Lefebrve</span>
 
 
 
-					</p>
+
 								</div>
 
 
 
+								<div class="middlebar2">
+
+
+									<div class="bottomleft">
+										<div class="btop">
+
+
+
+										</div>
+										<div class="bbottom">
+										<p>In short, space is a practiced place. Thus the street geometrically defined by urban planning is transformed into a space by walkers. In the same way, an act of reading is the space produced by the practice of a particular place: a written text, i.e., a place constituted by a system of signs.Merleau-Ponty distinguished a "geometrical" space ("a homogeneous and isotropic spatiality," analogous to our "place") from another "spatiality" which he called an "anthropological space." This distinction depended on a distinct problematic, which sought to distinguish from "geometrical" univocity the experience of an "outside" given in the form of space, and for which "space is existential" and "existence is spatial." </p>
+									</div>
+									</div>
+
+									<div class="bottomright">
+										<div class="btop"></div>
+										<div class="bbottom">
+										<p>This experience is a relation to the world; in dreams and in perception, and because it probably precedes their differentiation, it expresses "the same essential structure of our being as a being situated in relationship to a
+											milieu"—being situated by a desire, indissociable from a "direction of existence" and implanted in the space of a landscape. From this point of view "there are as many spaces as there are distinct spatial experiences."' The perspective is determined by a "phenomenology" of existing in the world.
+
+										</p>
+									</div>
+									</div>
+
+
+
+
 								</div>
 
-								<div class="middlebar">
-								<img src="assets/images/tv.png" width="120%">
-								<p id="middle1"><span class="middlesub">MYTHS OF EVERYDAY LIFE</span><br>
-									<span class="middletitle">Henri Lefebrve</span>
+								<div class="next2">
+
+									<div class="middlebottom2">
+
+										<video class="edie" width="825" height="340" autoplay>
+											<source src="assets/video/eyes.mp4" type="video/mp4">
+
+											</video>
+
+									</div>
+<div class="middlebottom3">
+	<p>
+At the outset, I shall make a distinction between space (espace) and place (lieu) that delimits a field. A place (lieu) is the order (of whatever kind) in accord with which elements are distributed in relationships of coexistence. It thus excludes the possibility of two things being in the same location (place). The law of the "proper" rules in the place: the elements taken into consideration are beside one another, each situated in its own "proper" and distinct location, a location it defines. A place is thus an instantaneous configuration of positions. It implies an indication of stability. A space exists when one takes into consideration vectors of direction, velocities, and time variables. Thus space is composed of intersections of mobile elements. It is in a sense actuated by the ensemble of movements deployed within it. Space occurs as the effect produced by the operations that orient it, situate it, temporalize it, and make it function in a polyvalent unity of conflictual programs or contractual proximities. On this view, in relation to place, space is like the word when it is spoken, that is, when it is caught in the ambiguity of an actualization, trans-formed into a term dependent upon many different conventions, situated as the act of a present (or of a time), and modified by the transformations caused by successive contexts. In contradistinction to the place, it has thus none of the univocity or stability of a "proper."</p>
 
 
+</div>
 
-								</p>
-
-								</div>
-
-								<div class="next">
-								<img src="assets/images/Taps_Web.jpg" width="100%">
-								<p id="middle1"><span class="middlesub">MYTHS OF EVERYDAY LIFE</span><br>
-									<span class="middletitle">Henri Lefebrve</span>
-
-
-
-								</p>
+<img src="assets/images/stripes.jpg" width="121%">
 
 												</div>
 
@@ -212,8 +298,6 @@ $(".bottomtitle").hide();
 
 
 		</div>
-
-
 
 		<script src="assets/js/jquery.dlmenu.js"></script>
 		<script src="assets/js/pagetransitions.js"></script>
