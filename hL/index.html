@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<head>
@@ -7,296 +8,203 @@
 		<title>Critique of Everyday Life</title>
 
 
-		<link rel="stylesheet" type="text/css" href="assets/css/multilevelmenu.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/animations.css" />
-		<script src="assets/js/modernizr.custom.js"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
 
-		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-	  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-		<script src="assets/js/jquery.scrollSlide.js"></script>
-
-
-		<script>
+		<script href="assets/js/jquery-3.2.0.min.js"></script>
+		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+<script type="text/javascript">
 $(document).ready(function(){
-		$("#flip").click(function(){
-				$("#panel").slideToggle("slow");
-		});
-});
-</script>
 
+
+  $(".vid6").mouseenter(function() {
+    $(".vid6").addClass("showme");
+  });
+
+  $(".vid6").mouseleave(function() {
+    $(".vid6").removeClass("showme");
+  });
+
+	$(".vid7").mouseenter(function() {
+    $(".vid7").addClass("showme");
+  });
+
+  $(".vid7").mouseleave(function() {
+    $(".vid7").removeClass("showme");
+  });
+
+	$(".vid8").mouseenter(function() {
+    $(".vid8").addClass("showme");
+  });
+
+  $(".vid8").mouseleave(function() {
+    $(".vid8").removeClass("showme");
+  });
+	$(".vid9").mouseenter(function() {
+    $(".vid9").addClass("showme");
+  });
+
+  $(".vid9").mouseleave(function() {
+    $(".vid9").removeClass("showme");
+  });
+
+
+});
+
+    </script>
 <script>
 
+		$(document).ready(function() {
+		 // your code here
+	});
+
+				$(function() {
+
+						var trigger = $('.vid6'),
+								target = $('.text, .vid7, .vid8, .vid9, .footnote');
+
+						trigger.mouseover(function() {
 
 
+		target.stop().fadeTo('slow',0);
+						});
+
+				 });
+
+				 $(function() {
+
+					 var trigger = $('.vid6'),
+							target = $('.text, .vid7, .vid8, .vid9, .footnote');
+
+						trigger.mouseout(function() {
+
+								target.stop().fadeTo('slow',1);
+
+						});
+
+				 });
+				 $(function() {
+
+					 var trigger = $('.vid7'),
+							target = $('.text, .vid6, .vid8, .vid9, .footnote');
+
+						trigger.mouseover(function() {
+
+
+		target.stop().fadeTo('slow',0);
+						});
+
+				 });
+
+				 $(function() {
+
+					 var trigger = $('.vid7'),
+							target = $('.text, .vid6, .vid8, .vid9, .footnote');
+
+						trigger.mouseout(function() {
+
+								target.stop().fadeTo('slow',1);
+
+						});
+
+				 });
+				 $(function() {
+
+					 var trigger = $('.vid8'),
+							target = $('.text, .vid6, .vid7, .vid9, .footnote');
+
+						trigger.mouseover(function() {
+
+
+		target.stop().fadeTo('slow',0);
+						});
+
+				 });
+
+				 $(function() {
+
+					 var trigger = $('.vid8'),
+							target = $('.text, .vid6, .vid7, .vid9, .footnote');
+
+						trigger.mouseout(function() {
+
+								target.stop().fadeTo('slow',1);
+
+						});
+
+				 });
+				 $(function() {
+
+					 var trigger = $('.vid9'),
+							target = $('.text, .vid6, .vid7, .vid8, .footnote');
+
+						trigger.mouseover(function() {
+
+
+		target.stop().fadeTo('slow',0);
+						});
+
+				 });
+
+				 $(function() {
+
+					 var trigger = $('.vid9'),
+							target = $('.text, .vid6, .vid7, .vid8, .footnote');
+
+						trigger.mouseout(function() {
+
+								target.stop().fadeTo('slow',1);
+
+						});
+
+				 });
 </script>
-
-
-<script>
-$(document).ready(function() {
-$(".topsub").hide();
- $(".top").hover(function() {
-	 $(".topsub").show("slide",500 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".toptitle").hide();
- $(".top").hover(function() {
-	 $(".toptitle").show("slide",600 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".middlesub").hide();
- $(".middlebar").hover(function() {
-	 $(".middlesub").show("slide",500 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".middletitle").hide();
- $(".middlebar").hover(function() {
-	 $(".middletitle").show("slide",600 ); // Show
- })
-});
-$(document).ready(function() {
-$(".bottomsub").hide();
- $(".bottomimg").hover(function() {
-	 $(".bottomsub").show("slide",500 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".bottomtitle").hide();
- $(".bottomimg").hover(function() {
-	 $(".bottomtitle").show("slide",600 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".bottomleft").hide();
- $(".next").hover(function() {
-	 $(".bottomleft").show("slide",500 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".bottomright").hide();
- $(".next").hover(function() {
-	 $(".bottomright").show("slide",600 ); // Show
- })
-});
-</script>
-
-
 
 	</head>
 	<body>
-		<button id="flip">Menu</button>
-		<div id="panel">
-		<ul>
-			<li><a href="../index.html">Home</a></li>
-			<li><a href="index.html">Henri Lefebrve</a></li>
-			<li><a href="../hb/index.html">Hughes C. Boekraad</a></li>
-			<li><a href="../mc/index.html">Michel de Certeau</a></li>
+<nav class="mainNav">
+<a href="../index.html">&#9664;</a>&nbsp;next&nbsp;<a href="../hb/index.html">&#9654;</a>
+</nav>
 
+<div class="main">
 
 
-		</ul>
+<div class="intro">
+	<h1 class="text">Henri Lefebrve</h1>
+	<h2 class="text">A Critique of Everyday Lfe</h2>
 
 
-			</div>
+		<p><span class="text">It is hard to define; but who could deny its 'reality', especially since it consists of a certain way of being 'real'? Nowadays, it is contrasted with <i>distinction</i>; but this distinction is itself an aspect of vulgarity. Nothing is more vulgar than distinction and the wish to distinguish oneself (to <i>be</i> distinguished); ethical-aesthetic judgement and sociological fact, vulgarity does not emanate from popular gestures and words, but from the everyday as it is secreted and decreed by the middle classes: a certain 'realism' about money, clothes, behaviour and gratifications, a realism that flaunts and asserts itself, which is part of the 'vulgar'.<sup class="foot1"><a href="#fn1" id="ref1">1</a></sup></span> <video src="assets/video/vid6.mp4" loop mute autoplay class="vid6"></video><span class="text"><br>
 
 
+		The everyday is limited to what is there; it has no horizons, no resonance, it congratulates itself on its limitations and retreats into them. It parades need, the object of need and the satisfaction of need; this is its 'behaviour' a self-satisfied conditioned reflex, a way of behaving that lasts throughout a lifetime and imbues it with its own tonality: vulgarity. And it makes suspect and forbidden all forms of rupture, and prohibits all change by identifying 'what is' with wisdom and good sense.<br><br>
 
-		<div id="pt-main" class="pt-perspective">
-			<div class="pt-page pt-page-1">
+    Realism &mdash; dense, vulgar and producer of vulgarity &mdash; stifles the very sighs of the creature it oppresses: the dream, the call to what is 'other' or 'elsewhere', the protestations of those who in the everyday &mdash; women, children, deviants - the irredeemable lived, demanding 'something else'. The extraordinary that pierces through the ordinary, the extra-quotidian [<i>extraquotidian</i>] that ruptures the everyday [<i>quotidien</i>] (the 'passions', the appeal that is heard through the interdictions and maledictions, interjections and exclamations, curses and insults), the vulgar rejects it and reduces it to nothing.<sup><a href="#fn2" id="ref2">2</a></sup> </span><video src="assets/video/vid7.mp4"loop mute autoplay class="vid7"></video> <span class="text"><br><br>
 
+    "The attitude the calls itself rational, and privileges the conceived to the point of hyperstatizing it, causes a strong reaction, which stands in direct confronttation with what motivates it: the fetishism of the absurd, the cult of the irrational. Thought thus makes a loop and comes full circle&mdash;"
 
+  	The transformation of the social by knowledge and in knowledge ends in the reversal of the project; knowledge promulgates itself autonomously, thus consolidating the existing state of affairs, known and acknowledged as such. Must we remind ourselves here that the critique of the everyday life proposes a different route: to take lived experience as the starting point, and elucidate it in order to transform it &mdash; instead of starting from the conceived in order to oppose it? But at the same time, without belittling or rejecting knowledge.<br><br>
 
-						<div class="top">
-							<p id="top1"><span class="topsub">ON VULGARITY</span><br>
-								<span class="toptitle">Henri Lefebrve</span><br>
-								<span class="topsub2">THE CRITIQUE OF EVERYDAY LIFE</span>
-							</p>
+    From the deceptive point of view, to live is to know&mdash; to learn and to know is to live. The lived and the conceived become identical. Knowledge, confused with 'being', focusses on the 'real', defining it and thus controlling it, has a predominance that is at one and the same time methodological, practical and ontological. Social and practical man becomes according to the Cartesian precept the master and the proprietor of Nature, through Work and knowledge; he thus defines and realizes his full existence.<sup><a href="#fn3" id="ref3">3</a></sup></span> <video src="assets/video/vid8.mp4"loop mute autoplay class="vid8"></video> <span class="text">
 
+    That's according to Marx. if I know what I feel and perceive, if I attain what in 'me' escaped my knowledge, and followed its own course outside my consciousness or without it, I achieve a satisfying, normal situation: deliverance and health. That's according to Freud. As if knowledge had this bearing: not simply to grasp the unknown 'object', whether nature or the unconscious, but to realize the 'subject'.Which would thus be constituted through knowledge, experienced as such.<br><br>
 
-							</div>
+    Impermeable, invulnerable, inaccessible, the vulgar being forms a sheel around itself, which protects is from all but the most common ills. The only part of the everyday that vulgarity keeps is the trivial. It does not confine itself to one utterance, but relates to something more hidden and essential. Does satisfaction not have something <i>cumulative</i> about it? Not in the same way as knowledge, but in some analogous way? Satisfactions accumulate; needs, by producing and reproducing themselves, and producing and reproducing their objects, create the density of the vulgar. This does not mean that unease, imagination or anxiety tear the 'subject' away from the vulgarity; a thwarted person can still be vulgar in his anxiety. Vulgarity is not restricted to the everyday and to those who concentrate the trivial within it. Certain 'reflections' that try to pass for thinking becomes tainted by vulgarity and carry its mask as well as aspects of behaviours rooted in habits. The vulgarity of complacent knowledge has traditional names, which 'scientific' and 'technological' apologises for it make us forget: fussiness, pedantry, complexity. Once, we used to say 'philistinism' and Schumann wrote his 'March against the Philistines'.1 The enormous and lasting success of psycholanalysis has not prevented discussions 'centred' on sexuality from descending into vulgarity; there is something deeply vulgar in the attention paid to 'sexual matters' and 'sexual relations', to sex in general or to 'sexuality'.<sup><a href="#fn4" id="ref4">4</a></sup></span> <video src="assets/video/vid9.mp4"loop mute autoplay class="vid9"></video><span class="text"></p>
 
 
-
-
-
-							<div class="middlebar">
-								<div class="middlebottom">
-									<p>It is hard to define; but who could deny its 'reality', especially since it consists of a certain way of being 'real'? Nowadays, it is contrasted with <i>distinction</i>; but this distinction is itself an aspect of vulgarity. Nothing is more vulgar than distinction and the wish to distinguish oneself (to <i>be</i> distinguished); ethical-aesthetic judgement and sociological fact, vulgarity does not emanate from popular gestures and words, but from the everyday as it is secreted and decreed by the middle classes: a certain 'realism' about money, clothes, behaviour and gratifications, a realism that flaunts and asserts itself, which is part of the 'vulgar'.</p>
-
-
-								</div>
-
-							<p id="middle1"><br>
-								<span class="middletitle">Introduction</span>
-
-
-
-							</p>
-
-							<img src="assets/images/Sampson_5.jpg" width="100%">
-
-							</div>
-
-							<div class="next">
-
-
-								<div class="bottomleft">
-									<div class="btop">
-										<video width="380" height="320" controls>
-											<source src="assets/video/footage.mp4" type="video/mp4">
-
-											</video>
-									</div>
-									<div class="bbottom">
-									<p><span class="everyday">Everyday Extrordinaire</span><br><br>The everyday is limited to what is there; it has no horizons, no resonance, it congratulates itself on its limitations and retreats into them. It parades need, the object of need and the satisfaction of need; this is its 'behaviour' a self-satisfied conditioned reflex, a way of behaving that lasts throughout a lifetime and imbues it with its own tonality: vulgarity. And it makes suspect and forbidden all forms of rupture, and prohibits all change by identifying 'what is' with wisdom and good sense.</p>
-								</div>
-							</div>
-
-								<div class="bottomright">
-									<div class="btop">
-										<video width="380" height="320" controls>
-											<source src="assets/video/bob.mp4" type="video/mp4">
-
-											</video>
-
-									</div>
-									<div class="bbottom">
-									<p><br>Realism &mdash; dense, vulgar and producer of vulgarity &mdash; stifles the very sighs of the creature it oppresses: the dream, the call to what is 'other' or 'elsewhere', the protestations of those who in the everyday &mdash; women, children, deviants - the irredeemable lived, demanding 'something else'. The extraordinary that pierces through the ordinary, the extra-quotidian [<i>extraquotidian</i>] that ruptures the everyday [<i>quotidien</i>] (the 'passions', the appeal that is heard through the interdictions and maledictions, interjections and exclamations, curses and insults), the vulgar rejects it and reduces it to nothing.</p>
-								</div>
-							</div>
-<div class="transparent"></div>
-
-
-
-											</div>
-
-											<div class="pt-triggers">
-												<button id="iterateEffects" class="pt-touch-button">Next</button>
-												<div id="dl-menu" class="dl-menuwrapper">
-
-
-
-
-
-												</div><!-- /dl-menu-wrapper-->
-											</div><!-- /triggers -->
-		</div>
-
-
-				<div class="pt-page pt-page-2">
-					<div class="top2">
-<div class=top2top>
-<div class="top2left">
-<p>"The attitude the calls itself rational, and privileges the conceived to the point of hyperstatizing it, causes a strong reaction, which stands in direct confronttation with what motivates it: the fetishism of the absurd, the cult of the irrational. Thought thus makes a loop and comes full circle&mdash;"</p>
-</div>
-<div class="top2right">
-	<video width="380" height="320" controls>
-		<source src="assets/video/bob.mp4" type="video/mp4">
-
-		</video>
-</div>
-</div>
-<div class="top2bottom">
-<p>The transformation of the social by knowledge and in knowledge ends in the reversal of the project; knowledge promulgates itself autonomously, thus consolidating the existing state of affairs, known and acknowledged as such. Must we remind ourselves here that the critique of the everyday life proposes a different route: to take lived experience as the starting point, and elucidate it in order to transform it &mdash; instead of starting from the conceived in order to oppose it? But at the same time, without belittling or rejecting knowledge.</p>
-</div>
-
-<img src="assets/images/newspaper.jpg" width="120%">
-
-
-
-
-
-
-								</div>
-
-
-
-								<div class="middlebar2">
-
-
-									<div class="bottomleft">
-										<div class="btop">
-
-
-
-										</div>
-										<div class="bbottom">
-										<p>From the deceptive point of view, to live is to knwo &mdash; to learn and to know is to live. The lived and the conceived become identical. Knowledge, confused with 'being', focusses on the 'real', defining it and thus controlling it, has a predominance that is at one and the same time methodological, practical and ontological. Social and practical man becomes according to the Cartesian precept the master and the proprietor of Nature, through Work and knowledge; he thus defines and realizes his full existence.</p>
-									</div>
-									</div>
-
-									<div class="bottomright">
-										<div class="btop"></div>
-										<div class="bbottom">
-										<p>That's according to Marx. if I know what I feel and perceive, if I attain what in 'me' escaped my knowledge, and followed its own course outside my consciousness or without it, I achieve a satisfying, normal situation: deliverance and health. That's according to Freud. As if knowledge had this bearing: not simply to grasp the unknown 'object', whether nature or the unconscious, but to realize the 'subject'.Which would thus be constituted through knowledge, experienced as such.</p>
-									</div>
-									</div>
-
-
-
-
-								</div>
-
-								<div class="next2">
-
-									<div class="middlebottom2">
-
-										<video class="edie" width="825" height="340" controls>
-											<source src="assets/video/eyes.mp4" type="video/mp4">
-
-											</video>
-
-									</div>
-<div class="middlebottom3">
-	<p>Impermeable, invulnerable, inaccessible, the vulgar being forms a sheel around itself, which protects is from all but the most common ills. The only part of the everyday  that vulgarity keeps it the trivial. It does not confine itself to one utterance, but relates to something more hidden and essential. Does satisfaction not have something <i>cumulative</i> about it? Not in the same way as knowledge, but in some analogous way? Satisfactions accumulate; needs, by producing and reproducing themselves, and producing and reproducing their objects, create the density of the vulgar. This does not mean that unease, imagination or anxiety tear the 'subject' away from the vulgarity; a thwarted person can still be vulgar in his anxiety. Vulgarity is not restricted to the everyday and to those who concentrate the trivial within it. Certain 'reflections' that try to pass for thinking becomes tainted by vulgarity and carry its mask as well as aspects of behaviours rooted in habits. The vulgarity of complacent knowledge has traditional names, which 'scientific' and 'technological' apologises for it make us forget: fussiness, pedantry, complexity. Once, we used to say 'philistinism' anbd Schumann wrote his 'March against the Philistines'.1 The enormous and lasting success of psycholanalysis has not prevented discussions 'centred' on sexuality from descending into vulgarity; there is something deeply vulgar in the attention paid to 'sexual matters' and 'sexual relations', to sex in general or to 'sexuality'.</p>
-
-
-</div>
-
-<img src="assets/images/stripes.jpg" width="121%">
-
-												</div>
-
-
-
-
-
-
-				<div class="pt-triggers">
-					<button id="iterateEffects" class="pt-touch-button">Next</button>
-					<div id="dl-menu" class="dl-menuwrapper">
-
-
-
-
-
-					</div><!-- /dl-menu-wrapper-->
-				</div><!-- /triggers -->
 
 
 
 
 </div>
-			<div class="pt-page pt-page-3"></div>
-
-			<div class="pt-page pt-page-4"></div>
-
-
-
-		</div>
-
-		<script src="assets/js/jquery.dlmenu.js"></script>
-		<script src="assets/js/pagetransitions.js"></script>
+</div>
+<div class="footnote">
+<sup id="fn1">1. [Critique de la vie quotidienne III: De la modernite au modernisme (Pour une metaphilosophie du quotidien)[Paris: L'Arche, 1981], pp. 74-8]<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup><br>
+<sup id="fn2">2. [<b>a</b> :  belonging to each day :  everyday quotidian routine
+<b>b</b> :  commonplace, ordinary quotidian drabness]<a href="#ref2" title="Jump back to footnote 2 in the text.">↩</a></sup><br>
+<sup id="fn3">3. [See: <a href="https://en.wikipedia.org/wiki/Discourse_on_the_Method">Disourse on the Method]<a href="#ref3" title="Jump back to footnote 3 in the text.">↩</a></sup><br>
+<sup id="fn4">4. [See: <a href="https://selforganizedseminar.files.wordpress.com/2012/07/elden-stuart-understanding-henri-lefebvre-theory-and-possible.pdf">Understanding Henri Lefebrve</a>] <a href="#ref4" title="Jump back to footnote 4 in the text.">↩</a></sup><br>
+</div>
 
 
-	</body>
-</html>
+  </body>
+  </html>

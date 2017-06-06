@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<head>
@@ -7,246 +8,188 @@
 		<title>Critique of Everyday Life</title>
 
 
-		<link rel="stylesheet" type="text/css" href="assets/css/multilevelmenu.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/animations.css" />
-		<script src="assets/js/modernizr.custom.js"></script>
-
-		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-	  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-
-
-		<script>
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <script href="assets/js/jquery-3.2.0.min.js"></script>
+		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+<script type="text/javascript">
 $(document).ready(function(){
-		$("#flip").click(function(){
-				$("#panel").slideToggle("slow");
-		});
-});
-</script>
 
+
+  $(".homevidOne").mouseenter(function() {
+    $(".homevidOne").addClass("showme");
+  });
+
+  $(".homevidOne").mouseleave(function() {
+    $(".homevidOne").removeClass("showme");
+  });
+
+	$(".homeFootage").mouseenter(function() {
+    $(".homeFootage").addClass("showme");
+  });
+
+  $(".homeFootage").mouseleave(function() {
+    $(".homeFootage").removeClass("showme");
+  });
+
+	$(".homefilmscratches").mouseenter(function() {
+    $(".homefilmscratches").addClass("showme");
+  });
+
+  $(".homefilmscratches").mouseleave(function() {
+    $(".homefilmscratches").removeClass("showme");
+  });
+	$(".homevid2").mouseenter(function() {
+    $(".homevid2").addClass("showme");
+  });
+
+  $(".homevid2").mouseleave(function() {
+    $(".homevid2").removeClass("showme");
+  });
+
+
+});
+
+    </script>
 <script>
+		$(document).ready(function() {
+		 // your code here
+	});
+
+		    $(function() {
+
+		        var trigger = $('.homevidOne'),
+		            target = $('.text, .homeFootage, .homefilmscratches, .homevid2');
+
+		        trigger.mouseover(function() {
 
 
+	  target.stop().fadeTo('slow',0);
+		        });
 
+		     });
+
+				 $(function() {
+
+						var trigger = $('.homevidOne'),
+								target = $('.text, .homeFootage, .homefilmscratches, .homevid2');
+
+						trigger.mouseout(function() {
+
+								target.stop().fadeTo('slow',1);
+
+						});
+
+				 });
+				 $(function() {
+
+						var trigger = $('.homeFootage'),
+								target = $('.text, .homevidOne, .homefilmscratches, .homevid2');
+
+						trigger.mouseover(function() {
+
+
+		target.stop().fadeTo('slow',0);
+						});
+
+				 });
+
+				 $(function() {
+
+						var trigger = $('.homeFootage'),
+								target = $('.text, .homevidOne, .homefilmscratches, .homevid2');
+
+						trigger.mouseout(function() {
+
+								target.stop().fadeTo('slow',1);
+
+						});
+
+				 });
+				 $(function() {
+
+						var trigger = $('.homefilmscratches'),
+								target = $('.text, .homevidOne, .homeFootage, .homevid2');
+
+						trigger.mouseover(function() {
+
+
+		target.stop().fadeTo('slow',0);
+						});
+
+				 });
+
+				 $(function() {
+
+						var trigger = $('.homefilmscratches'),
+								target = $('.text, .homevidOne, .homeFootage, .homevid2');
+
+						trigger.mouseout(function() {
+
+								target.stop().fadeTo('slow',1);
+
+						});
+
+				 });
+				 $(function() {
+
+						var trigger = $('.homevid2'),
+								target = $('.text, .homevidOne, .homefilmscratches, .homeFootage, .no4');
+
+						trigger.mouseover(function() {
+
+
+		target.stop().fadeTo('slow',0);
+						});
+
+				 });
+
+				 $(function() {
+
+						var trigger = $('.homevid2'),
+								target = $('.text, .homevidOne, .homefilmscratches, .homeFootage, .no4');
+
+						trigger.mouseout(function() {
+
+								target.stop().fadeTo('slow',1);
+
+						});
+
+				 });
 </script>
-
-
-<script>
-$(document).ready(function() {
-$(".topsub").hide();
- $(".top").hover(function() {
-	 $(".topsub").show("slide",500 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".toptitle").hide();
- $(".top").hover(function() {
-	 $(".toptitle").show("slide",600 ); // Show
- })
-});
-
-
-$(document).ready(function() {
-$(".toptoptitle").hide();
- $(".tophome").hover(function() {
-	 $(".toptoptitle").show("slide",600 ); // Show
- })
-});
-$(document).ready(function() {
-$(".toptopsub").hide();
- $(".tophome").hover(function() {
-	 $(".toptopsub").show("slide",600 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".middlesub").hide();
- $(".middlebar").hover(function() {
-	 $(".middlesub").show("slide",500 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".middletitle").hide();
- $(".middlebar").hover(function() {
-	 $(".middletitle").show("slide",600 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".middlesub2").hide();
- $(".middlebar").hover(function() {
-	 $(".middlesub2").show("slide",500 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".nexttitle").hide();
- $(".next").hover(function() {
-	 $(".nexttitle").show("slide",600 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".nextsub").hide();
- $(".next").hover(function() {
-	 $(".nextsub").show("slide",600 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".nextsub2").hide();
- $(".next").hover(function() {
-	 $(".nextsub2").show("slide",600 ); // Show
- })
-});
-$(document).ready(function() {
-$(".bottomsub").hide();
- $(".bottomimg").hover(function() {
-	 $(".bottomsub").show("slide",500 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".bottomtitle").hide();
- $(".bottomimg").hover(function() {
-	 $(".bottomtitle").show("slide",600 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".bottomleft").hide();
- $(".next").hover(function() {
-	 $(".bottomleft").show("slide",500 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".bottomright").hide();
- $(".next").hover(function() {
-	 $(".bottomright").show("slide",600 ); // Show
- })
-});
-</script>
-
-
-
 	</head>
 	<body>
-		<button id="flip">Menu</button>
-		<div id="panel">
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="hl/index.html">Henri Lefebrve</a></li>
-			<li><a href="hb/index.html">Hugues C. Boekraad</a></li>
-			<li><a href="mc/index.html">Michel de Certeau</a></li>
+<nav class="mainNav">
+next&nbsp;<a href="hl/index.html">&#9654;</a>
 
 
+</nav>
 
-		</ul>
+<div class="main">
 
+  <div class="intro">
+  <span class="text"><i>Henri Lefebrve.</i> One of Lefebvre's most important contributions to social thought is the idea of the "critique of everyday life", which he pioneered in the 1930s. Lefebvre defined everyday life dialectically as the intersection of "illusion and truth, power and helplessness; the intersection of the sector man controls and the sector he does not control",</span><video src="assets/video/homevid.mp4" loop mute autoplay class="homevidOne"></video> <span class="text"><sup><a href="#fn1" id="ref1"></a></sup> and is where the perpetually transformative conflict occurs between diverse, specific rhythms: the body’s polyrhythmic bundles of natural rhythms, physiological (natural) rhythms, and social rhythms (Lefebvre and Régulier, 1985: 73).</span><video src="assets/video/vid3.mp4" loop mute autoplay class="homeFootage"></video>
+	<span class="text"><sup><a href="#fn2" id="ref2"></a></sup> The everyday was in short, the space in which all life occurred, and between which all fragmented activities took place.  It was the residual. While the theme presented itself in many works, it was most notably outlined in his eponymous 3 volume study, which came out in individual installments, decades apart, in 1947, 1961, and 1981.
 
-			</div>
-
-
-
-		<div id="pt-main" class="pt-perspective">
-			<div class="pt-page pt-page-1">
-				<div class="tophome">
-<div class="tophomeright">
-						<video class="homevid" width="380" height="320" autoplay loop>
-							<source src="assets/video/homevid.mp4" type="video/mp4">
-
-							</video>
-</div>
-					<p id="toptop1"><span class="toptopsub">HENRI LEFEBRVE</span><br>
-						<span class="toptoptitle">"The 'meaning' of life is not to be found in anything other than that life itself. It is within it, and there is nothing beyond that."</span><br>
-						</p>
-						<img src="assets/images/gold-extracted.png" width="120%" height="130%">
-					</div>
-
-
-
-
-
-						<div class="top">
-							<div id="top1"><p><span class="topsub">ON VULGARITY</span><br>
-								<span class="toptitle">Henri Lefebrve</span><br>
-								<span class="topsub2">THE CRITIQUE OF EVERYDAY LIFE</span></p>
-							</div>
-
-<a href="hl/index.html"><img src="assets/images/shoes.png" width="200%"></a>
-							</div>
-
-
-
-
-
-							<div class="middlebar">
-
-
-
-									<p id="middle1"><span class="middlesub">EVERYDAY PRACTICES</span><br>
-										<span class="middletitle">Michel de Certeau</span><br>
-										<span class="middlesub2">THE PRACTICE OF EVERYDAY LIFE</span>
-									</p>
-
-<a href="mc/index.html"><img src="assets/images/jumper.png" width="200%"></a>
-
-							</div>
-
-							<div class="next">
-
-
-
-							<p id="next1"><span class="nextsub">NORM AND FORM</span><br>
-							<span class="nexttitle">Hugues C.Boekraad</span><br>
-							<span class="nextsub2">THE ROLE OF GRAPHIC DESIGN IN THE
-							PUBLIC DOMAIN</span>
-							</p>
-<div class="transparency"></div>
-
-<a href="hb/index.html"><img class="keepclear" src="assets/images/keepclear.png" width="140%"></a>
-
-											</div>
-
-											<div class="pt-triggers">
-												<button id="iterateEffects" class="pt-touch-button">Next</button>
-												<div id="dl-menu" class="dl-menuwrapper">
-
-
-
-
-
-												</div><!-- /dl-menu-wrapper-->
-											</div><!-- /triggers -->
-		</div>
-
-
-
-
-
-
+  Lefebvre argued that everyday life was an underdeveloped sector compared to technology and production, and moreover that in the mid 20th century, capitalism changed such that everyday life was to be colonized—turned into a zone of sheer consumption. In this zone of everydayness (boredom) shared by everyone in society regardless of class or specialty, autocritique of everyday realities of boredom vs. societal promises of free time and leisure, could lead to people understanding and then revolutionizing their everyday lives.</span><video loop mute autoplay src="assets/video/vid5.mp4" class="homefilmscratches"></video> <span class="text"><sup><a href="#fn3" id="ref3"></a></sup> This was essential to Lefebvre because everyday life was where he saw capitalism surviving and reproducing itself. Without revolutionizing everyday life, capitalism would continue to diminish the quality of everyday life, and inhibit real self-expression. The critique of everyday life was crucial because it was for him only through the development of the conditions of human life—rather than abstract control of productive forces—that humans could reach a concrete utopian existence.</span><video loop mute autoplay src="assets/video/vid8.mp4" class="homevid2"></video>
+<sup><a href="#fn4" class="no4" id="ref4"></a></sup></div>
+<br><br>
 
 
 
 
 </div>
-			<div class="pt-page pt-page-3"></div>
+<div class="footnote">
+<sup id="fn1">1. [Text of footnote 1]<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup><br>
+<sup id="fn2">2. [Text of footnote 2]<a href="#ref2" title="Jump back to footnote 2 in the text.">↩</a></sup><br>
+<sup id="fn3">3. [Text of footnote 3]<a href="#ref3" title="Jump back to footnote 3 in the text.">↩</a></sup><br>
+<sup id="fn4">4. [Text of footnote 4]<a href="#ref4" title="Jump back to footnote 4 in the text.">↩</a></sup><br>
+</div>
 
-			<div class="pt-page pt-page-4"></div>
+<footer>
 
-
-
-		</div>
-
-
-
-		<script src="assets/js/jquery.dlmenu.js"></script>
-		<script src="assets/js/pagetransitions.js"></script>
+</footer>
 
 
-	</body>
-</html>
+
+  </body>
+  </html>

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<head>
@@ -7,299 +8,203 @@
 		<title>Critique of Everyday Life</title>
 
 
-
-		<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/animations.css" />
-		<script src="assets/js/modernizr.custom.js"></script>
-
-		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-	  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-
-		<script>
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+		<script href="assets/js/jquery-3.2.0.min.js"></script>
+		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+<script type="text/javascript">
 $(document).ready(function(){
-		$("#flip").click(function(){
-				$("#panel").slideToggle("slow");
-		});
-});
-</script>
 
+
+  $(".vid10").mouseenter(function() {
+    $(".vid10").addClass("showme");
+  });
+
+  $(".vid10").mouseleave(function() {
+    $(".vid10").removeClass("showme");
+  });
+
+	$(".vid11").mouseenter(function() {
+    $(".vid11").addClass("showme");
+  });
+
+  $(".vid11").mouseleave(function() {
+    $(".vid11").removeClass("showme");
+  });
+
+	$(".vid12").mouseenter(function() {
+    $(".vid12").addClass("showme");
+  });
+
+  $(".vid12").mouseleave(function() {
+    $(".vid12").removeClass("showme");
+  });
+	$(".vid14").mouseenter(function() {
+    $(".vid14").addClass("showme");
+  });
+
+  $(".vid14").mouseleave(function() {
+    $(".vid14").removeClass("showme");
+  });
+
+
+});
+
+    </script>
 <script>
+		$(document).ready(function() {
+		 // your code here
+	});
+
+		    $(function() {
+
+		        var trigger = $('.vid10'),
+		            target = $('.text, .vid11, .vid12, .vid14, .footnote');
+
+		        trigger.mouseover(function() {
 
 
+	  target.stop().fadeTo('slow',0);
+		        });
 
+		     });
+
+				 $(function() {
+
+					 var trigger = $('.vid10'),
+							target = $('.text, .vid11, .vid12, .vid14, .footnote');
+
+						trigger.mouseout(function() {
+
+								target.stop().fadeTo('slow',1);
+
+						});
+
+				 });
+				 $(function() {
+
+					 var trigger = $('.vid11'),
+							target = $('.text, .vid10, .vid12, .vid14, .footnote');
+
+						trigger.mouseover(function() {
+
+
+		target.stop().fadeTo('slow',0);
+						});
+
+				 });
+
+				 $(function() {
+
+					 var trigger = $('.vid11'),
+							target = $('.text, .vid10, .vid12, .vid14, .footnote');
+
+						trigger.mouseout(function() {
+
+								target.stop().fadeTo('slow',1);
+
+						});
+
+				 });
+				 $(function() {
+
+					 var trigger = $('.vid12'),
+							target = $('.text, .vid11, .vid10, .vid14, .footnote');
+
+						trigger.mouseover(function() {
+
+
+		target.stop().fadeTo('slow',0);
+						});
+
+				 });
+
+				 $(function() {
+
+					 var trigger = $('.vid12'),
+							target = $('.text, .vid11, .vid10, .vid14, .footnote');
+
+						trigger.mouseout(function() {
+
+								target.stop().fadeTo('slow',1);
+
+						});
+
+				 });
+				 $(function() {
+
+					 var trigger = $('.vid14'),
+							target = $('.text, .vid11, .vid12, .vid10, .footnote');
+
+						trigger.mouseover(function() {
+
+
+		target.stop().fadeTo('slow',0);
+						});
+
+				 });
+
+				 $(function() {
+
+					 var trigger = $('.vid14'),
+							target = $('.text, .vid11, .vid12, .vid10, .footnote');
+
+						trigger.mouseout(function() {
+
+								target.stop().fadeTo('slow',1);
+
+						});
+
+				 });
 </script>
-
-
-<script>
-$(document).ready(function() {
-$(".topsub").hide();
- $(".top").hover(function() {
-	 $(".topsub").show("slide",500 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".toptitle").hide();
- $(".top").hover(function() {
-	 $(".toptitle").show("slide",600 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".middlesub").hide();
- $(".middlebar").hover(function() {
-	 $(".middlesub").show("slide",500 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".middletitle").hide();
- $(".middlebar").hover(function() {
-	 $(".middletitle").show("slide",600 ); // Show
- })
-});
-$(document).ready(function() {
-$(".bottomsub").hide();
- $(".bottomimg").hover(function() {
-	 $(".bottomsub").show("slide",500 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".bottomtitle").hide();
- $(".bottomimg").hover(function() {
-	 $(".bottomtitle").show("slide",600 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".bottomleft").hide();
- $(".next").hover(function() {
-	 $(".bottomleft").show("slide",500 ); // Show
- })
-});
-
-$(document).ready(function() {
-$(".bottomright").hide();
- $(".next").hover(function() {
-	 $(".bottomright").show("slide",600 ); // Show
- })
-});
-</script>
-
-
 
 	</head>
 	<body>
-		<button id="flip">Menu</button>
-		<div id="panel">
-		<ul>
-			<li><a href="../index.html">Home</a></li>
-			<li><a href="../hl/index.html">Henri Lefebrve</a></li>
-			<li><a href="index.html">Hughes C. Boekraad</a></li>
-			<li><a href="../mc/index.html">Michel de Certeau</a></li>
+<nav class="mainNav">
+<a href="../hl/index.html">&#9664;</a>&nbsp;next&nbsp;<a href="../mc/index.html">&#9654;</a>
+</nav>
+
+<div class="main">
+
+	<div class="intro">
+		<h1 class="text">Hugues C. Boekraad</h1>
+		<h2 class="text">Norm and Form: The Role of Graphic Design in the Public Domain</h2>
+
+  <p><span class="text">In "Strukturwandlung der Oerlenclichkeic”, the German philosopher Habermas sketches the historical development of the public domain in a number of European countries. He outlines an ideal model of this domain in which decisions regarding public matters are taken on the basis of arguments rather than of status, power, or tradition. This is clearly a prerequisite for the functioning of a democracy. The public domain is the & medium in which the arguments are formulated that ultimately underlie political action. The quality of the arguments and the number of participants in the debate are crucial in determining the democratic for a level of democratic the decision system making. A specific form of communication turns out to be sine qua non for a democratic system. In his historical sketch, Habermas indicates who formed the basis for this early public domain: the city burghers. They were wealthy and educated and shared the values
+    a certain lifestyle-bourgeois culture. So only a limited segment of the population was involved; women, the poor, and children played no role in the debate. The burghers controlled the material and other conditions for taking part in this debate. At once owners of capital, participants in a common culture, and keepers of the relevant information, they turned the public debate into the exclusive preserve of a particular social group.<sup class="foot1"><a href="#fn1" id="ref1">1</a></sup></span> <video src="assets/video/vid10.mp4" loop mute autoplay class="vid10"></video><span class="text"><br><br>
+
+	The question is whether the actual public domain achieved between the seventeenth and nineteenth centuries can continue to serve as a model in the twentieth century. Not only has the number of participants increased dramatically, but also the nature of public debate has changed. It is no longer carried on or mainly carried on between equal citizens out between the representatives of organisations who make use of increasingly complicated information and media networks. <br><br>
+
+		Bourgeois culture has long ceased to be identical with capitalism; the bourgeois lifestyle longer rooted in positions of economic power. Bourgeois values such as thrift, lack of ostentation, etc. have become antique in a culture of conspicuous consumption. In his novel Buddenbrooks, Thomas Mann shows how the early bourgeois culture yielded to the new capitalism that took over in the second half of the last century in sociology, it was Max Weber who described the end of Enlightenment ideals: the society of rationally thinking, speaking, and acting citizens ended up as a bureaucratized state/society that subjected its own citizens to its administrative procedures. <br><br>
+
+    <i>The theoreticians.</i> They are text oriented. They are more interested in philosophies and theories about design than in design itself. If they practice design, they prefer to work the basis of theoretical ideas or concepts.
+			<i>The handyman.</i> They are manually oriented. They focus on the material and the form is created in the encounter with the properties of the material. They want to let the materials speak for themselves and to bring the form back to the essence. Naturalness in form and material are high priorities. They attend workshops and have a real interest in the craft aspects. Cut and paste is back in favour with this group of graphic designers. What matters to them is the pleasure of form, but without frills.<sup><a href="#fn2" id="ref2">2</a></sup> </span><video src="assets/video/vid11.mp4"loop mute autoplay class="vid11"></video> <span class="text"><br><br>
 
 
-
-		</ul>
-
-
-			</div>
-
-
-
-		<div id="pt-main" class="pt-perspective">
-			<div class="pt-page pt-page-1">
-
-
-
-						<div class="top">
-
-							<p id="top1"><span class="topsub">NORM AND FORM</span><br>
-								<span class="toptitle">Hugues C. Boekraad</span><br>
-								<span class="topsub2">THE ROLE OF GRAPHIC DESIGN IN THE PUBLIC DOMAIN</span>
-							</p>
-<img src="assets/images/hugheshome.jpg" width="200%">
-
-							</div>
-
-
-
-
-
-							<div class="middlebar">
-								<div class="middlebottom">
-									<p>In "Strukturwandlung der Oerlenclichkeic”, the German philosopher Habermas sketches the historical development of the public domain in a number of European countries. He outlines an ideal model of this domain in which decisions regarding public matters are taken on the basis of arguments rather than of status, power, or tradition. This is clearly a prerequisite for the functioning of a democracy. The public domain is the & medium in which the arguments are formulated that ultimately underlie political action. The quality of the arguments and the number of participants in the debate are crucial in determining the democratic for a level of democratic the decision system making. A specific form of communication turns out to be sine qua non for a democratic system. In his historical sketch, Habermas indicates who formed the basis for this early public domain: the city burghers. They were wealthy and educated and shared the values
-										a certain lifestyle-bourgeois culture. So only a limited segment of the population was involved; women, the poor, and children played no role in the debate. The burghers controlled the material and other conditions for taking part in this debate. At once owners of capital, participants in a common culture, and keepers of the relevant information, they turned the public debate into the exclusive preserve of a particular social group.</p>
-
-
-								</div>
-
-							<p id="middle1"><br>
-								<span class="middletitle">Introduction</span>
-
-
-
-							</p>
-
-
-
-							</div>
-
-							<div class="next">
-
-
-								<div class="bottomleft">
-									<div class="btop">
-										<video width="380" height="320" controls>
-											<source src="assets/video/footage.mp4" type="video/mp4">
-
-											</video>
-									</div>
-									<div class="bbottom">
-									<p><span class="everyday">The Future Public </span><br><br>The question is whether the actual public domain achieved between the seventeenth and nineteenth centuries can continue to serve as a model in the twentieth century. Not only has the number of participants increased dramatically, but also the nature of public debate has changed. It is no longer carried on or mainly carried on between equal citizens out between the representatives of organisations who make use of increasingly complicated information and media networks. </p>
-								</div>
-							</div>
-
-								<div class="bottomright">
-									<div class="btop">
-										<video width="380" height="320" controls>
-											<source src="assets/video/bob.mp4" type="video/mp4">
-
-											</video>
-
-									</div>
-									<div class="bbottom">
-									<p>Bourgeois culture has long ceased to be identical with capitalism; the bourgeois lifestyle longer rooted in positions of economic power. Bourgeois values such as thrift, lack of ostentation, etc. have become antique in a culture of conspicuous consumption. In his novel Buddenbrooks, Thomas Mann shows how the early bourgeois culture yielded to the new capitalism that took over in the second half of the last century in sociology, it was Max Weber who described the end of Enlightenment ideals: the society of rationally thinking, speaking, and acting citizens ended up as a bureaucratized state/society that subjected its own citizens to its administrative procedures. </p>
-								</div>
-							</div>
-
-
-
-
-											</div>
-
-											<div class="pt-triggers">
-												<button id="iterateEffects" class="pt-touch-button">Next</button>
-												<div id="dl-menu" class="dl-menuwrapper">
-
-
-
-
-
-												</div><!-- /dl-menu-wrapper-->
-											</div><!-- /triggers -->
-		</div>
-
-
-				<div class="pt-page pt-page-2">
-					<div class="top2">
-
-						<div class="bottomleft">
-							<div class="btop">
-
-
-
-							</div>
-							<div class="bbottom">
-							<p><i>The theoreticians.</i> They are text oriented. They are more interested in philosophies and theories about design than in design itself. If they practice design, they prefer to work the basis of theoretical ideas or concepts.
-<i>The handyman.</i> They are manually oriented. They focus on the material and the form is created in the encounter with the properties of the material. They want to let the materials speak for themselves and to bring the form back to the essence. Naturalness in form and material are high priorities. They attend workshops and have a real interest in the craft aspects. Cut and paste is back in favour with this group of graphic designers. What matters to them is the pleasure of form, but without frills.
-</p>
-						</div>
-						</div>
-
-						<div class="bottomright">
-							<div class="btop"></div>
-							<div class="bbottom">
-							<p><i>The designers.</i> They are visually oriented. They search for the image of the age. They find it in cinemas, magazines, on the streets and in museums, at video festivals and fashionable events. Their working method is usually collage-combining existing images to create a new one.
+<i>The designers.</i> They are visually oriented. They search for the image of the age. They find it in cinemas, magazines, on the streets and in museums, at video festivals and fashionable events. Their working method is usually collage-combining existing images to create a new one.
 <i>The artists.</i> They use the methods and tools of design but for strictly subjective purposes. They are concerned with their own preferences in form and image: they aim to create an image of their own. They express themselves without regard to communication or pragmatic concerns.
 <i>The technophiles.</i> They are fascinated by the technical aspects of their discipline: the materials, the construction, the new design tools.
-					</p>
-						</div>
-						</div>
+<br><br>
+
+				When postmodernism became dominant in Dutch graphic design around 1980, designers could let their hair down. The strict rules of both traditionalists and modernists were over turned-anything went. The designer’s personal pleasure was central to the philosophy of Studio Dumbar a leader in this new movement. Respect for client and public gave way to an attitude that gave priority to the aims of the designer. A certain disdain for the external conditions of the design was accompanied by a concentration on the formal possibilities available to the designer.<sup><a href="#fn3" id="ref3">3</a></sup></span> <video src="assets/video/vid12.mp4"loop mute autoplay class="vid12"></video> <span class="text">
+
+        			What disappeared was the relation of the design to the public domain, however defined. The designer as a specialist serving public interests had gone. The designer’s frame of reference had narrowed down to the world of design itself: what was his/her relation to the established names in that world? Fame and fortune became acknowledged aims of design activity. The norm of design became the positioning of the designer. If we look at the attitudes to design held by architects and graphic designers students in these disciplines, several categories can be distinguished.<br><br>
+
+                	Bourgeois culture has long ceased to be identical with capitalism; the bourgeois lifestyle longer rooted in positions of economic power. Bourgeois values such as thrift, lack of ostentation, etc. have become antique in a culture of conspicuous consumption. In his novel Buddenbrooks, Thomas Mann shows how the early bourgeois culture yielded to the new capitalism that took over in the second half of the last century in sociology, it was Max Weber who described the end of Enlightenment ideals: the society of rationally thinking, speaking, and acting citizens ended up as a bureaucratized state/society that subjected its own citizens to its administrative procedures.In "Dialektik der Aufklarung," Horkheimer and Adorno outlined the working methods of a culture industry that constantly and  professionally manipulates the behaviour of the masses. In their somber view, in the twentieth century the masses who has become politically aware were robbed of this awareness by being permanently embedded in a mass culture in which entertainment and fun took the place pos pleasure, culture and knowledge. Graphic Design is a young discipline. As in independent field, it is related to the rise of modern mass culture and opposed to it. Graphic Design came into being as a by-product of the development of modern mass communications as an autonomous professional function between the creation of text/image and its printing and circulation. Its object is the form in which all kids of information are presented. As an independent discipline, graphic design is tied to the decline of the bourgeois public domain as described by Habermas.<sup><a href="#fn4" id="ref4">4</a></sup></span> <video src="assets/video/vid14.mp4"loop mute autoplay class="vid14"></video><span class="text"></p>
 
 
-
-
-
-
-
-								</div>
-
-
-
-								<div class="middlebar2">
-
-
-									<div class="bottomleft">
-										<div class="btop">
-
-
-
-										</div>
-										<div class="bbottom">
-										<p>When postmodernism became dominant in Dutch graphic design around 1980, designers could let their hair down. The strict rules of both traditionalists and modernists were over turned-anything went. The designer’s personal pleasure was central to the philosophy of Studio Dumbar a leader in this new movement. Respect for client and public gave way to an attitude that gave priority to the aims of the designer. A certain disdain for the external conditions of the design was accompanied by a concentration on the formal possibilities available to the designer. </p>
-									</div>
-									</div>
-
-									<div class="bottomright">
-										<div class="btop"></div>
-										<div class="bbottom">
-										<p>What disappeared was the relation of the design to the public domain, however defined. The designer as a specialist serving public interests had gone. The designer’s frame of reference had narrowed down to the world of design itself: what was his/her relation to the established names in that world? Fame and fortune became acknowledged aims of design activity. The norm of design became the positioning of the designer. If we look at the attitudes to design held by architects and graphic designers students in these disciplines, several categories can be distinguished.1
-</p>
-									</div>
-									</div>
-
-
-
-
-								</div>
-
-								<div class="next2">
-
-<div id="pagetwobottom"class="middlebottom3">
-	<p>Bourgeois culture has long ceased to be identical with capitalism; the bourgeois lifestyle longer rooted in positions of economic power. Bourgeois values such as thrift, lack of ostentation, etc. have become antique in a culture of conspicuous consumption. In his novel Buddenbrooks, Thomas Mann shows how the early bourgeois culture yielded to the new capitalism that took over in the second half of the last century in sociology, it was Max Weber who described the end of Enlightenment ideals: the society of rationally thinking, speaking, and acting citizens ended up as a bureaucratized state/society that subjected its own citizens to its administrative procedures.In "Dialektik der Aufklarung," Horkheimer and Adorno outlined the working methods of a culture industry that constantly and  professionally manipulates the behaviour of the masses. In their somber view, in the twentieth century the masses who has become politically aware were robbed of this awareness by being permanently embedded in a mass culture in which entertainment and fun took the place pos pleasure, culture and knowledge. Graphic Design is a young discipline. As in independent field, it is related to the rise of modern mass culture and opposed to it. Graphic Design came into being as a by-product of the development of modern mass communications as an autonomous professional function between the creation of text/image and its printing and circulation. Its object is the form in which all kids of information are presented. As an independent discipline, graphic design is tied to the decline of the bourgeois public domain as described by Habermas.
-</p>
-
-
-</div>
-
-
-
-
-
-
-
-<img src="assets/images/stripes.jpg" width="130%">
-
-
-				<div class="pt-triggers">
-					<button id="iterateEffects" class="pt-touch-button">Back</button>
-					<div id="dl-menu" class="dl-menuwrapper">
-
-
-
-
-
-					</div><!-- /dl-menu-wrapper-->
-				</div><!-- /triggers -->
 
 
 
 
 </div>
-			<div class="pt-page pt-page-3"></div>
-
-			<div class="pt-page pt-page-3"></div>
-
-
-
-		</div>
-
-		<script src="assets/js/jquery.dlmenu.js"></script>
-		<script src="assets/js/pagetransitions.js"></script>
+</div>
+<div class="footnote">
+<sup id="fn1">1. [See: <a href="https://en.wikipedia.org/wiki/Burgher">Burgher</a>]<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup><br>
+<sup id="fn2">2. [See: <a href="http://design-milk.com/no-frills-design-where-form-meets-function-by-_fjeldborg-design/">No Frills Design</a>]<a href="#ref2" title="Jump back to footnote 2 in the text.">↩</a></sup><br>
+<sup id="fn3">3. [<a href="http://www.huffingtonpost.com/david-glick/design-school-as-art-gall_b_847253.html">Design and the Public Domain</a>]<a href="#ref3" title="Jump back to footnote 3 in the text.">↩</a></sup><br>
+<sup id="fn4">4. [See: <a href="https://www.britannica.com/biography/Jurgen-Habermas">Jürgen Habermas</a>]<a href="#ref4" title="Jump back to footnote 4 in the text.">↩</a></sup><br>
+</div>
 
 
-	</body>
-</html>
+  </body>
+  </html>
